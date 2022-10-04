@@ -1,10 +1,19 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div>
+    <NavComp/>
+  </div>
 </template>
+
+<script>
+import NavComp from './components/NavComp.vue';
+export default {
+  name: '',
+  components: {
+    NavComp
+}
+}
+
+</script>
 
 <style lang="scss">
 #app {

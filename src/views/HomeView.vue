@@ -1,18 +1,45 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="home" class="container vh-100 overflow-hidden d-flex m-auto d-flex justify-content-center align-items-center">
+    <div class="row">
+      <div class="col-md-2">
+        <hr>
+        <hr>
+      </div>
+      <div class="col-md-8 d-flex justify-content-center align-items-center">
+        <h6 class="fw-bold">Aspiring <br>
+          <hr>
+        </h6>
+        <img class="img-fluid m-auto" src="https://i.postimg.cc/gcDTptXY/IMG-7581.jpg"
+          alt="">
+        <h6 class="fw-bold">Fullstack<br>Developer
+          <hr>
+        </h6>
+      </div>
+      <div class="col-md-2">
+        <hr>
+        <hr>
+      </div>
+    </div>
   </div>
 </template>
-
+  
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
-  name: 'HomeView',
+  name: 'Home',
   components: {
-    HelloWorld
+
   }
 }
 </script>
+  
+<style scoped>
+img {
+  border-radius: 50%;
+  height: 50%;
+  aspect-ratio: 1;
+  margin: auto;
+  background-position: center;
+  object-fit: cover;
+  background-attachment: fixed;
+}
+</style>
