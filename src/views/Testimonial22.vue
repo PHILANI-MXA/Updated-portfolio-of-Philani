@@ -2,62 +2,65 @@
     <div id="testimonials" class="container h-100 p-5 my-5 ">
         <h2 class="text-center bg-black my-5 p-3 fw-bolder text-white">Testimonials</h2>
         <div>
-        <figure>
-            <img src="https://i.postimg.cc/g0pyf3Cg/Silizwe-2.jpg" alt="Portfolio Item">
-            <figcaption>
-                <h3>Title</h3>
-                <p>Description.</p>
-            </figcaption>
-        </figure>
-
-        <figure>
-            <img src="https://i.postimg.cc/1XDdybhR/Khanyiswa-2.jpg" alt="Portfolio Item">
-            <figcaption>
-                <h3>Title</h3>
-                <p>Description.</p>
-            </figcaption>
-        </figure>
-        <figure>
-            <img src="https://i.postimg.cc/kXryQrjr/Sibongile-2.jpg" alt="Portfolio Item">
-            <figcaption>
-                <h3>Title</h3>
-                <p>Description.</p>
-            </figcaption>
-        </figure>
-        <figure>
-            <img src="https://i.postimg.cc/rshkbdbJ/9-BF3-E51-D-57-C5-49-C6-BA88-AE494436-B96-B.jpg"
-                alt="Portfolio Item">
-            <figcaption>
-                <h3>Title</h3>
-                <p>Description.</p>
-            </figcaption>
-        </figure>
-        <figure>
-            <img src="https://i.postimg.cc/DZLSFN1s/Godwin22.jpg" alt="Portfolio Item">
-            <figcaption>
-                <h3>Title</h3>
-                <p>Description.</p>
-            </figcaption>
-        </figure>
-        <figure>
-            <img src="https://i.postimg.cc/1Xqq4J2C/joel2.jpg" alt="Portfolio Item">
-            <figcaption>
-                <h3>Title</h3>
-                <p>Description.</p>
-            </figcaption>
-        </figure>
-    </div>
+            <figure>
+                <img src="https://i.postimg.cc/g0pyf3Cg/Silizwe-2.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3>Student</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, quam.</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="https://i.postimg.cc/1XDdybhR/Khanyiswa-2.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3>Student</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolorum modi iste voluptatibus
+                        deserunt ullam!</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="https://i.postimg.cc/kXryQrjr/Sibongile-2.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente asperiores veritatis delectus
+                        hic.</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="https://i.postimg.cc/rshkbdbJ/9-BF3-E51-D-57-C5-49-C6-BA88-AE494436-B96-B.jpg"
+                    alt="Portfolio Item">
+                <figcaption>
+                    <h3>Title</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptate nam quasi ratione
+                        praesentium quo possimus saepe ducimus ipsum voluptates impedit assumenda, minima incidunt
+                        deserunt doloremque? Aliquam repudiandae molestias animi?</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="https://i.postimg.cc/DZLSFN1s/Godwin22.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3>Title</h3>
+                    <p>Description.</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="https://i.postimg.cc/1Xqq4J2C/joel2.jpg" alt="Portfolio Item">
+                <figcaption>
+                    <h3>Title</h3>
+                    <p>Description.</p>
+                </figcaption>
+            </figure>
+        </div>
     </div>
 </template>
 
 <script>
 import Testimonial22Vue from './Testimonial22.vue';
-    export default {
-        name: '',
-        components: {
-            Testimonial22Vue
-        }
+export default {
+    name: '',
+    components: {
+        Testimonial22Vue
     }
+}
 </script>
   
 <style scoped>
@@ -74,12 +77,16 @@ body {
 
 figure {
     float: left;
-    height: 10em;
+    height: 15em;
     margin: 1.8em;
     width: 18em;
     -webkit-transform: perspective(500);
     -webkit-transform-style: preserve-3d;
     -webkit-transition: .5s;
+}
+
+.figcaption {
+    height: 15em;
 }
 
 figure:hover {
