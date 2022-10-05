@@ -1,8 +1,82 @@
 <template>
-    <div id="education" class="container text-start my-5 h-100 justify-content-between overflow-auto p-4">
+     <div id="education" class="container text-start my-5 p-4 h-100 justify-content-between">
+      <h2 class="text-center bg-black my-5 p-3 fw-bolder">Education</h2>
+      <div class="row">
+        <div class="col-md-6" >
+          <div class="">
+            <div class="text-black">
+              <div class="item" data-aos="fade-right" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+                <div>
+                            <h4 class="text-black">Matric - class of 2017</h4>
+                            <h6 class="text-black">Sinako High School (WCDE)</h6>
+                            <p class="text-black">Bachelor pass</p>
+                            <p class="text-black">Subjects</p>
+                            <ul class=" text-black">
+                                <li>English</li>
+                                <li>IsiXhosa</li>
+                                <li>Life Orientation</li>
+                                <li>Tourism</li>
+                                <li>Business Studies</li>
+                                <li>Economics</li>
+                                <li>Maths Lit</li>
+                            </ul>
+                        </div>
+              </div>
+              <hr>
+              <div class="item" data-aos="fade-right" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+                <div class="text-black item">
+                            <h4>Sololearn</h4>
+                            <h6>Online Self Learning Programming Institution</h6>
+                            <p>Unlocked 4 Badges @level-13</p>
+                            <p>Languages</p>
+                            <ul class="">
+                                <li>Python</li>
+                                <li>CSS 3</li>
+                                <li>HTML 5</li>
+                                <li>SQL</li>
+                                <li>JavaScript</li>
+                                <li>C</li>
+                                <li>React</li>
+                            </ul>
+                        </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="text-black item" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+            <div class="">
+                    <h4 class="text-black">Bachelor of Library and Information Science 2019-2022</h4>
+                    <h6 class="text-black">University of the Western Cape</h6>
+                    <p class="text-black">3rd year level</p>
+                    <p class="text-black">Modules</p>
+                    <ul class=" text-black">
+                        <li>Library Science 111, 121, 241, 242, 243, 244, 321, 301, 302</li>
+                        <li>History 231, 241, 331, 332</li>
+                        <li>Anthropology and Sociology 111, 121</li>
+                        <li>Ethics 111, 121</li>
+                        <li>Language and Communication Studies (LCS) 111, 121</li>
+                    </ul>
+                </div>
+          </div>
+          <hr>
+          <div class="my-3 text-black">
+            <div class="item" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+              <h4 class="text-black">Lifechoices Studio</h4>
+              <h6 class="text-black">Web developer Intern/Student</h6>
+              <p>Duties: Creating website based projects using programming languages that we are learning at the academy.
+                Place for upskilling myself. Attending professional development trainigs and boosting my soft skills</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <!-- <div id="education" class="container text-start my-5 h-100 justify-content-between p-4">
         <h2 class="text-center bg-black my-5 p-3 fw-bolder item4">Education</h2>
         <div class="row"> 
-            <div class="col-md-4 item3">
+            <div class="col-md-4 item">
                 <div class="">
                     <div class="">
                         <div>
@@ -21,7 +95,7 @@
                             </ul>
                         </div>
                         <hr>
-                        <div class="text-black item2">
+                        <div class="text-black item">
                             <h4>Sololearn</h4>
                             <h6>Online Self Learning Programming Institution</h6>
                             <p>Unlocked 4 Badges @level-13</p>
@@ -43,7 +117,7 @@
             </div>
             <div class="col-md-1">
             </div>
-            <div class="col-md-7 item1">
+            <div class="col-md-7 item">
                 <div class="">
                     <h4 class="text-black">Bachelor of Library and Information Science 2019-2022</h4>
                     <h6 class="text-black">University of the Western Cape</h6>
@@ -57,7 +131,7 @@
                         <li>Language and Communication Studies (LCS) 111, 121</li>
                     </ul>
                 </div><br><br>
-                <div class="my-3 text-black">
+                <div class="my-3 text-black item">
                     <h4 class=" my-2">6 Months Coding Course</h4>
                     <h6>Cohort 10 : April - September 2022</h6>
                     <h6>Lifechoices Academy</h6>
@@ -73,13 +147,22 @@
             </div>
         </div>
 
-    </div>
+    </div> -->
 </template>
 
 <script>
 export default {
-    name: 'AboutView'
-}
+    name: 'AboutView',
+    components: {
+
+    },
+    mounted() {
+        AOS.init()
+    }
+  }
+AOS.init({
+    duration: 1000
+});
 </script>
 
 <style scoped>
@@ -103,5 +186,14 @@ export default {
 img {
     border-radius: 10px;
     box-shadow: solid grey;
+}
+
+.item {
+  width: 500px;
+  height: 400px;
+  background: #f6f6f6;
+  text-align: center;
+  color: #4E4C48;
+  font-size: 1.1em;
 }
 </style>
