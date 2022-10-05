@@ -2,6 +2,7 @@
     <div id="testimonials" class="container h-100 p-5 my-5 ">
         <h2 class="text-center bg-black my-5 p-3 fw-bolder text-white">Testimonials</h2>
         <div>
+            <div>
             <figure>
                 <img src="https://i.postimg.cc/g0pyf3Cg/Silizwe-2.jpg" alt="Portfolio Item">
                 <figcaption>
@@ -9,6 +10,7 @@
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, quam.</p>
                 </figcaption>
             </figure>
+        </div>
             <figure>
                 <img src="https://i.postimg.cc/1XDdybhR/Khanyiswa-2.jpg" alt="Portfolio Item">
                 <figcaption>
@@ -59,8 +61,14 @@ export default {
     name: '',
     components: {
         Testimonial22Vue
-    }
+    },
+    mounted() {
+    AOS.init()
+  }
 }
+AOS.init({
+  duration: 1000
+});
 </script>
   
 <style scoped>

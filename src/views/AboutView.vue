@@ -1,7 +1,7 @@
 <template>
-  <div id="about" class="container text-start h-100 justify-content-between overflow-auto">
-      <h2 class="text-center bg-black my-2 p-3 fw-bolder">About</h2>
-      <div class="row p-4">
+  <div id="about" class="p-5 my-5 container text-start vh-100 justify-content-between">
+      <h2 class="text-center bg-black p-3 fw-bolder p-3">About</h2>
+      <div class="row p-3">
           <div class="col-md-4">
               <div class="">
                   <div class="avatar">
@@ -110,6 +110,7 @@ export default {
 </script>
 
 <style scoped>
+
 .row {
   background: #ffffff;
   color: #898989;
