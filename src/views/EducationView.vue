@@ -1,117 +1,89 @@
 <template>
-    <div id="education" class="p-5 my-5 container text-start vh-100 justify-content-between">
-        <h2 class="text-center bg-black p-3 fw-bolder p-3">Education</h2>
-        <div class="row p-3">
-            <div class="col-md-4">
+    <div id="education" class="container text-start my-5 h-100 justify-content-between overflow-auto p-4">
+        <h2 class="text-center bg-black my-5 p-3 fw-bolder item4">Education</h2>
+        <div class="row"> 
+            <div class="col-md-4 item3">
                 <div class="">
-                    <div class="avatar">
+                    <div class="">
                         <div>
-                            <img class="img-fluid animate text-white opacity-50"
-                                src="https://i.postimg.cc/s22npm2j/IMG-3418-ANIMATION.gif" alt="my image">
+                            <h4 class="text-black">Matric - class of 2017</h4>
+                            <h6 class="text-black">Sinako High School (WCDE)</h6>
+                            <p class="text-black">Bachelor pass</p>
+                            <p class="text-black">Subjects</p>
+                            <ul class=" text-black">
+                                <li>English</li>
+                                <li>IsiXhosa</li>
+                                <li>Life Orientation</li>
+                                <li>Tourism</li>
+                                <li>Business Studies</li>
+                                <li>Economics</li>
+                                <li>Maths Lit</li>
+                            </ul>
                         </div>
+                        <hr>
+                        <div class="text-black item2">
+                            <h4>Sololearn</h4>
+                            <h6>Online Self Learning Programming Institution</h6>
+                            <p>Unlocked 4 Badges @level-13</p>
+                            <p>Languages</p>
+                            <ul class="">
+                                <li>Python</li>
+                                <li>CSS 3</li>
+                                <li>HTML 5</li>
+                                <li>SQL</li>
+                                <li>JavaScript</li>
+                                <li>C</li>
+                                <li>React</li>
+                            </ul>
+                        </div>
+
                     </div>
+                    <hr>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="row text-black">
-                    <p class="col-4"> <small>DOB </small></p>
-                    <p class="col-1">:</p>
-                    <p class="col-2"> <small> 19990429 </small></p>
-                </div>
-                <div class="row text-black">
-                    <p class="col-4"> <small>Cell no</small></p>
-                    <p class="col-1">:</p>
-                    <p class="col-2"> <small>0646778134 </small></p>
-                </div>
-                <div class="row text-black">
-                    <p class="col-4"> <small>Age </small></p>
-                    <p class="col-1">:</p>
-                    <p class="col-2"> <small>23</small></p>
-                </div>
-                <div class="row text-black">
-                    <p class="col-4"> <small>Gender </small></p>
-                    <p class="col-1">:</p>
-                    <p class="col-2"> <small>Male</small></p>
-                </div>
-                <div class="row text-black">
-                    <p class="col-4"> <small>Driver's License</small></p>
-                    <p class="col-1">:</p>
-                    <p class="col-2"> <small>Yes </small></p>
-                </div>
-                <div class="row text-black">
-                    <p class="col-4"> <small>C-19 Vaccine </small></p>
-                    <p class="col-1">:</p>
-                    <p class="col-2"> <small>Fully Vaccinated</small></p>
-                </div>
-                <div class="row text-black">
-                    <p class="col-4"> <small>Health Status </small></p>
-                    <p class="col-1">:</p>
-                    <p class="col-2"> <small>Excellent</small></p>
-                </div>
-                <div class="row text-black">
-                    <p class="col-4"> <small>status of employment</small></p>
-                    <p class="col-1">:</p>
-                    <p class="col-2"> <small>Student Intern</small></p>
-                </div>
-                <div class="row text-black">
-                    <p class="col-4"><small>Host</small></p>
-                    <p class="col-1">:</p>
-                    <p class="col-2"><small>Life Choices</small></p>
-                </div>
-                <div class="row text-black">
-                    <p class="col-4"> <small>Criminal Record </small></p>
-                    <p class="col-1">:</p>
-                    <p class="col-2"> <small> Clear </small></p>
-                </div>
-                <div class="row text-black">
-                    <p class="col-4"> <small>Religion </small></p>
-                    <p class="col-1">:</p>
-                    <p class="col-2"> <small> Christianity </small></p>
-                </div>
-  
-                <div>
-  
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-7 item1">
+                <div class="">
+                    <h4 class="text-black">Bachelor of Library and Information Science 2019-2022</h4>
+                    <h6 class="text-black">University of the Western Cape</h6>
+                    <p class="text-black">3rd year level</p>
+                    <p class="text-black">Modules</p>
+                    <ul class=" text-black">
+                        <li>Library Science 111, 121, 241, 242, 243, 244, 321, 301, 302</li>
+                        <li>History 231, 241, 331, 332</li>
+                        <li>Anthropology and Sociology 111, 121</li>
+                        <li>Ethics 111, 121</li>
+                        <li>Language and Communication Studies (LCS) 111, 121</li>
+                    </ul>
+                </div><br><br>
+                <div class="my-3 text-black">
+                    <h4 class=" my-2">6 Months Coding Course</h4>
+                    <h6>Cohort 10 : April - September 2022</h6>
+                    <h6>Lifechoices Academy</h6>
+                    <p>Languages</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap 5</li>
+                        <li>SQL</li>
+                        <li>JavaScript && Js Frameworks NodeJs, VueJs</li>
+                    </ul>
                 </div>
             </div>
-            <div class="col-md-4">
-                <h4 class="text-black text-center"><small> Get to know me </small></h4>
-                <div class="row">
-                    <h6 class="text-center text-black"> Bio</h6>
-                    <p class="text-black ">Hi there! my name is Philani Mxathule 23, I matriculated in 2017. in 2018 I
-                        did my first internship by the Western Cape government at department of cultural affairs and
-                        sport in the SOMS unit [Strategic and Operations Management Services] a year longer contract.
-                    </p>
-  
-                    <p class="text-black ">
-                        I have managed to learn and experienced a lot because of my curiosity to know. I have problem
-                        solving skills and technical ability to create a logic and reasoning behind anything that needs
-                        to be solved.
-                    </p>
-  
-                    <p class="text-black ">I enjoy continous learning because knowing is not enough. I am
-                        self-disciplined, flexible and I can multi-task. I am able to take the responsility and perform
-                        tasks as an individual but I can also work in teams. I believe I have good communication skills
-                        and I enjoy working in a diversified working environment because I value and respect other
-                        cultures.</p>
-                </div>
-  
-            </div>
-            <hr>
         </div>
-  
+
     </div>
-  
-  </template>
-  
-  <script>
-  export default {
+</template>
+
+<script>
+export default {
     name: 'AboutView'
-  }
-  </script>
-  
-  <style scoped>
-  
-  .row {
+}
+</script>
+
+<style scoped>
+.row {
     background: #ffffff;
     color: #898989;
     font-family: 'Poppins', helvetica;
@@ -126,13 +98,10 @@
     -o-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-  }
-  
-  img {
+}
+
+img {
     border-radius: 10px;
     box-shadow: solid grey;
-  }
-  </style>
-  
-  
-  
+}
+</style>

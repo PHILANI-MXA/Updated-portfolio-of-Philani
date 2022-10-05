@@ -12,7 +12,7 @@
                   </div>
               </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-right">
               <div class="row text-black">
                   <p class="col-4"> <small>DOB </small></p>
                   <p class="col-1">:</p>
@@ -73,22 +73,22 @@
 
               </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="zoom-in-up">
               <h4 class="text-black text-center"><small> Get to know me </small></h4>
               <div class="row">
-                  <h6 class="text-center text-black"> Bio</h6>
+                  <h6 class="text-center text-black" data-aos="zoom-in-up"> Bio</h6>
                   <p class="text-black ">Hi there! my name is Philani Mxathule 23, I matriculated in 2017. in 2018 I
                       did my first internship by the Western Cape government at department of cultural affairs and
                       sport in the SOMS unit [Strategic and Operations Management Services] a year longer contract.
                   </p>
 
-                  <p class="text-black ">
+                  <p class="text-black " data-aos="zoom-in-up">
                       I have managed to learn and experienced a lot because of my curiosity to know. I have problem
                       solving skills and technical ability to create a logic and reasoning behind anything that needs
                       to be solved.
                   </p>
 
-                  <p class="text-black ">I enjoy continous learning because knowing is not enough. I am
+                  <p class="text-black " data-aos="zoom-in-up">I enjoy continous learning because knowing is not enough. I am
                       self-disciplined, flexible and I can multi-task. I am able to take the responsility and perform
                       tasks as an individual but I can also work in teams. I believe I have good communication skills
                       and I enjoy working in a diversified working environment because I value and respect other
@@ -105,8 +105,17 @@
 
 <script>
 export default {
-  name: 'AboutView'
+  name: 'AboutView',
+  components: {
+
+  },
+  mounted() {
+    AOS.init()
+  }
 }
+AOS.init({
+  duration: 2000
+});
 </script>
 
 <style scoped>

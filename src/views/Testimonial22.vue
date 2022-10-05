@@ -3,14 +3,14 @@
         <h2 class="text-center bg-black my-5 p-3 fw-bolder text-white">Testimonials</h2>
         <div>
             <div>
-            <figure>
-                <img src="https://i.postimg.cc/g0pyf3Cg/Silizwe-2.jpg" alt="Portfolio Item">
-                <figcaption>
-                    <h3>Student</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, quam.</p>
-                </figcaption>
-            </figure>
-        </div>
+                <figure>
+                    <img src="https://i.postimg.cc/g0pyf3Cg/Silizwe-2.jpg" alt="Portfolio Item">
+                    <figcaption>
+                        <h3>Student</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, quam.</p>
+                    </figcaption>
+                </figure>
+            </div>
             <figure>
                 <img src="https://i.postimg.cc/1XDdybhR/Khanyiswa-2.jpg" alt="Portfolio Item">
                 <figcaption>
@@ -32,23 +32,24 @@
                     alt="Portfolio Item">
                 <figcaption>
                     <h3>Title</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptate nam quasi ratione
-                        praesentium quo possimus saepe ducimus ipsum voluptates impedit assumenda, minima incidunt
-                        deserunt doloremque? Aliquam repudiandae molestias animi?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, minus quaerat! Nobis sed ut
+                        accusamus!</p>
                 </figcaption>
             </figure>
             <figure>
                 <img src="https://i.postimg.cc/DZLSFN1s/Godwin22.jpg" alt="Portfolio Item">
                 <figcaption>
                     <h3>Title</h3>
-                    <p>Description.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eum aliquid labore totam assumenda
+                        voluptas!</p>
                 </figcaption>
             </figure>
             <figure>
                 <img src="https://i.postimg.cc/1Xqq4J2C/joel2.jpg" alt="Portfolio Item">
                 <figcaption>
                     <h3>Title</h3>
-                    <p>Description.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat corporis molestias quam
+                        molestiae pariatur maxime!</p>
                 </figcaption>
             </figure>
         </div>
@@ -63,11 +64,11 @@ export default {
         Testimonial22Vue
     },
     mounted() {
-    AOS.init()
-  }
+        AOS.init()
+    }
 }
 AOS.init({
-  duration: 1000
+    duration: 1000
 });
 </script>
   
