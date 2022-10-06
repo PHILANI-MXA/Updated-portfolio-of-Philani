@@ -1,12 +1,13 @@
 <template>
     <div id="projects" class="container h-100 p-5 my-5">
-        <div class="row  justify-content-between">
+
+        <h2 class="text-center bg-black my-5 p-3 fw-bolder text-white">Projects</h2>
+        <div class="row  justify-content-between gy-5">
             <div v-for="card in projects" class="card" style="width: 18rem;">
                 <div class="card-body">
                     <h5 class="card-title">{{card.ProName}}</h5>
                     <h6 class="card-subtitle mb-2 text-muted">{{card.ProTechLang}}</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
+                    <img class="img-fluid" :src="card.Proimg" alt="">
                     <a href="#" class="card-link">Card link</a>
                     <a href="#" class="card-link">Another link</a>
                 </div>
@@ -57,6 +58,17 @@ export default {
   } */
 
 .card {
+  width: 40%;
+  height: 400px;
+  background:  #e8eeef;
+  text-align: center;
+  color: #4E4C48;
+  font-size: 1.1em;
+  line-height: 100px;
+  
+}
+
+/* .card {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -67,7 +79,7 @@ export default {
     margin-bottom: 10px;
     width: 40%;
     height: 200px;
-}
+} */
 
 .card:hover {
     transform: translate3d(0px, -1px, 0px);

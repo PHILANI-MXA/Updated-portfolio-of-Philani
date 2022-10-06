@@ -38,14 +38,14 @@ export default createStore({
     projects: [
       {
         id: '1',
-        Proimg: 'https://i.postimg.cc/QdbSN9N0/todo.png',
+        Proimg: 'https://i.postimg.cc/yxtkBTt2/Propertylisting.png',
         ProName: 'First-portfolio',
         ProDescription: 'This is my first HTML, bootstrap and CSS project',
         ProTechLang: 'HTML, Bootstrap and CSS'
       },
       {
         id: '2',
-        Proimg: 'https://i.postimg.cc/WpFpc0p6/minutes-to-sec.png',
+        Proimg: 'https://i.postimg.cc/yxtkBTt2/Propertylisting.png',
         ProName: 'Rainbow CSS',
         ProDescription: 'This is my first project that I have used CSS the most',
         ProTechLang: 'CSS and HTML'
