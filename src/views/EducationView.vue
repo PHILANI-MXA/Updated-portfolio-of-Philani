@@ -5,7 +5,7 @@
         <div class="col-md-6" >
           <div class="">
             <div class="text-black">
-              <div class="item" data-aos="fade-right" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+              <div class="item" data-aos="fade-right">
                 <div>
                             <h4 class="text-black">Matric - class of 2017</h4>
                             <h6 class="text-black">Sinako High School (WCDE)</h6>
@@ -23,7 +23,7 @@
                         </div>
               </div>
               <hr>
-              <div class="item" data-aos="fade-right" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+              <div class="item" data-aos="fade-right">
                 <div class="text-black item">
                             <h4>Sololearn</h4>
                             <h6>Online Self Learning Programming Institution</h6>
@@ -45,7 +45,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="text-black item" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+          <div class="text-black item" data-aos="fade-left">
             <div class="">
                     <h4 class="text-black">Bachelor of Library and Information Science 2019-2022</h4>
                     <h6 class="text-black">University of the Western Cape</h6>
@@ -62,7 +62,7 @@
           </div>
           <hr>
           <div class="my-3 text-black">
-            <div class="item" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+            <div class="item" data-aos="fade-left">
                 <div class="my-3 text-black">
                     <h4 class=" my-2">6 Months Coding Course</h4>
                     <h6>Cohort 10 : April - September 2022</h6>

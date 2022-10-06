@@ -4,7 +4,7 @@
         <div class="row p-4">
             <div class="col-md-5">
                 <div class="">
-                    <div class="text-black" data-aos="zoom-out-down">
+                    <div class="text-black" data-aos="fade-right" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
                         <h4>Achievements</h4>
                         <ol>
                             <li>Microsoft office 365 certificate</li>

@@ -1,7 +1,7 @@
 <template>
     <div id="about" class="p-5 my-5 container text-start vh-100 justify-content-between">
         <h2 class="text-center bg-black p-3 fw-bolder p-3">About</h2>
-        <div class="row p-3">
+        <div class="row p-3" data-aos="fade-right">
             <div class="col-md-4">
                 <div class="">
                     <div class="avatar">
@@ -73,10 +73,10 @@
 
                 </div>
             </div>
-            <div class="col-md-4 myself" data-aos="zoom-in-up">
+            <div class="col-md-4 myself" data-aos="zoom-in-up" data-aos-easing="ease-in">
                 <h4 class="text-black text-center"><small> Get to know me </small></h4>
                 <div class="row myself">
-                    <h6 class="text-center text-black myself" data-aos="zoom-in-up"> Bio</h6>
+                    <h6 class="text-center text-black myself" data-aos="zoom-in-up" data-aos-delay="500"> Bio</h6>
                     <p class="text-black myself">Hi there! my name is Philani Mxathule 23, I matriculated in 2017. in
                         2018 I
                         did my first internship by the Western Cape government at department of cultural affairs and
