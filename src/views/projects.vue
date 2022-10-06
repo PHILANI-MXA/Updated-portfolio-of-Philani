@@ -1,40 +1,49 @@
 <template>
-    <div id="projects" class="container h-100 overflow-auto">
-      <div class="row  justify-content-between">
-        <div v-for="card in projects" class="card mb-3" style="max-width: 540px;">
+    <div id="projects" class="container h-100 p-5 my-5">
+        <div class="row  justify-content-between">
+            <div v-for="card in projects" class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">{{card.ProName}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{card.ProTechLang}}</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <!-- <div v-for="card in projects" class="card mb-3" style="max-width: 540px;">
           <div class="row g-0">
             <div class="col-md-4">
-              <img :src="card.img" class="img-fluid rounded-start" alt="title">
+              <img :src="card.Proimg" class="img-fluid rounded-start" alt="title">
             </div>
+            <p>{{card.ProName}}</p>
+            <p>{{card.ProTechLang}}</p>
             <a :href="card.github" class="btn btn-primaryd-flex btn-success justify-content-between">Ghub</a>
             <a :href="card.live" class="btn btn-primaryd-flex btn-danger justify-content-between">live</a>
             <div class="col-md-8 border border-black">
-              <div class="card-body">
-                <h5 class="card-title">{{card.projectname}}</h5>
-                <p>Please take care of this book and consult us if in need to loan it</p>
-              </div>
-              <a :href="card.github" class="btn btn-primaryd-flex btn-success justify-content-between">Ghub</a>
-              <a :href="card.live" class="btn btn-primaryd-flex btn-danger justify-content-between">live</a>
+            <div class="card-body">
+            <h5 class="card-title">{{card.projectname}}</h5>
+            </div>
             </div>
           </div>
+        </div> -->
         </div>
-      </div>
     </div>
-  </template>
+</template>
   
-  <script>
-  export default {
+<script>
+export default {
     computed: {
-      projects() {
-        return this.$store.state.projects;
-      }
+        projects() {
+            return this.$store.state.projects;
+        }
     }
-  }
+}
+
+</script>
   
-  </script>
-  
-  <style scoped>
-  /* .card {
+<style scoped>
+/* .card {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -46,26 +55,26 @@
     transition: 0.4s ease-out;
     width: 28%;
   } */
-  
-  .card{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  color: black;
-  font-family: San-Francisco;
-  transition: 0.4s ease-out;
-  margin-bottom: 10px;
-  width: 40%;
-  height: 200px;
-  }
-  
-  .card:hover {
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+    font-family: San-Francisco;
+    transition: 0.4s ease-out;
+    margin-bottom: 10px;
+    width: 40%;
+    height: 200px;
+}
+
+.card:hover {
     transform: translate3d(0px, -1px, 0px);
-  }
-  
-  .btn {
+}
+
+.btn {
     justify-content: space-between;
     align-content: space-around;
-  }
-  </style>
+}
+</style>

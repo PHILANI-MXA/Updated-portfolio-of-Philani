@@ -85,7 +85,7 @@ body {
         -webkit-radial-gradient(hsla(0, 0%, 0%, .05) 10%, transparent 15%);
     background-size: 1.5em 1.5em, .5em .5em;
     font-family: sans-serif;
-    font-size: 100%;
+    font-size: 1.1em;
     line-height: 1.5;
 }
 
