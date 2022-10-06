@@ -10,6 +10,7 @@
                     <img class="img-fluid" :src="card.Proimg" alt="">
                     <a href="#" class="card-link">Card link</a>
                     <a href="#" class="card-link">Another link</a>
+                    <br>
                 </div>
             </div>
             <!-- <div v-for="card in projects" class="card mb-3" style="max-width: 540px;">
