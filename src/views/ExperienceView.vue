@@ -74,7 +74,7 @@ AOS.init({
 .item {
   width: 500px;
   height: 200px;
-  background: #f6f6f6;
+  background:  #e8eeef;
   text-align: center;
   color: #4E4C48;
   font-size: 1.1em;

@@ -74,6 +74,8 @@
                         <li>Bootstrap 5</li>
                         <li>SQL</li>
                         <li>JavaScript && Js Frameworks NodeJs, VueJs</li>
+                        <li>Capstone Project</li>
+                        <li>Professional and Personal Development</li>
                     </ul>
                 </div>
             </div>
@@ -206,7 +208,7 @@ img {
 .item {
   width: 500px;
   height: 300px;
-  background: #f6f6f6;
+  background: #e8eeef;
   text-align: center;
   color: #4E4C48;
   font-size: 1.1em;

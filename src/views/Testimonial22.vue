@@ -73,6 +73,11 @@ AOS.init({
 </script>
   
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+* {
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+}
 body {
     background-color: #f6f6f6;
     background-image: -webkit-linear-gradient(left, hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0) 50%,

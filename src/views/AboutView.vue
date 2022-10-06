@@ -124,7 +124,6 @@ AOS.init({
     @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 * {
     font-family: Raleway, sans-serif;
-    font-weight: bold;
 }
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Gemunu+Libre:wght@300;400;800&family=Shadows+Into+Light&display=swap');
 
