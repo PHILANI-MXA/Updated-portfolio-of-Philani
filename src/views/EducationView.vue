@@ -63,10 +63,19 @@
           <hr>
           <div class="my-3 text-black">
             <div class="item" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
-              <h4 class="text-black">Lifechoices Studio</h4>
-              <h6 class="text-black">Web developer Intern/Student</h6>
-              <p>Duties: Creating website based projects using programming languages that we are learning at the academy.
-                Place for upskilling myself. Attending professional development trainigs and boosting my soft skills</p>
+                <div class="my-3 text-black">
+                    <h4 class=" my-2">6 Months Coding Course</h4>
+                    <h6>Cohort 10 : April - September 2022</h6>
+                    <h6>Lifechoices Academy</h6>
+                    <p>Languages</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap 5</li>
+                        <li>SQL</li>
+                        <li>JavaScript && Js Frameworks NodeJs, VueJs</li>
+                    </ul>
+                </div>
             </div>
           </div>
         </div>
@@ -166,6 +175,12 @@ AOS.init({
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+* {
+    font-family: Raleway, sans-serif;
+}
+
+
 .row {
     background: #ffffff;
     color: #898989;
@@ -190,7 +205,7 @@ img {
 
 .item {
   width: 500px;
-  height: 400px;
+  height: 300px;
   background: #f6f6f6;
   text-align: center;
   color: #4E4C48;

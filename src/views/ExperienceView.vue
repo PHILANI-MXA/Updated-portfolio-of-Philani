@@ -63,6 +63,14 @@ AOS.init({
   </script>
   
   <style scoped>
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+* {
+    font-family: Raleway, sans-serif;
+}
+
+
 .item {
   width: 500px;
   height: 200px;

@@ -44,6 +44,11 @@ export default {
 </script>
   
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+* {
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+}
 h1 {
     margin: 0 0 30px 0;
     text-align: center;
