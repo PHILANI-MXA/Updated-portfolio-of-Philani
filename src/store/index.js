@@ -85,8 +85,8 @@ export default createStore({
         id: '1',
         Proimg: 'https://i.postimg.cc/TwwxwVFk/Capstone-Project.png',
         ProName: 'CapStone',
-        ProDescription: 'This is my first HTML, bootstrap and CSS project',
-        ProTechLang: 'HTML, Bootstrap and CSS',
+        ProDescription: 'Capstone project',
+        ProTechLang: 'Vuex 3, Javascript and Bootstrap',
         live: 'https://prismatic-stardust-6e4c31.netlify.app',
         github: 'https://github.com/PHILANI-MXA/capstoneprojectfront-end'
       },
@@ -94,8 +94,8 @@ export default createStore({
         id: '2',
         Proimg: 'https://i.postimg.cc/HxCSvd4b/JSCalculator.png',
         ProName: 'Calculator',
-        ProDescription: 'This is my first project that I have used CSS the most',
-        ProTechLang: 'CSS and HTML',
+        ProDescription: 'Functioning Javascript calculator created after I completed Javascript module',
+        ProTechLang: 'JavaScript, HTML and CSS',
         live: 'https://eloquent-mooncake-63cc2b.netlify.app',
         github: 'https://github.com/PHILANI-MXA/Calculator_js'
       },
@@ -103,7 +103,7 @@ export default createStore({
         id: '3',
         Proimg: 'https://i.postimg.cc/FRLYzX2C/TodoApp.png',
         ProName: 'Todo App',
-        ProDescription: 'Functioning Javascript calculator created after I completed Javascript module',
+        ProDescription: 'Todo App',
         ProTechLang: 'Javascript',
         live: 'https://bejewelled-sunflower-763e81.netlify.app',
         github: 'https://github.com/PHILANI-MXA/TodoAppChallenge'
@@ -113,7 +113,7 @@ export default createStore({
         Proimg: 'https://i.postimg.cc/63wk2dSs/Minutes-to-Seconds.png',
         ProName: 'Minutes to Seconds',
         ProDescription: 'I had to figure out how convert minutes to seconds using Javascript',
-        ProTechLang: 'Javascript',
+        ProTechLang: 'JavaScript',
         live: 'https://taupe-syrniki-941c55.netlify.app',
         github: 'https://github.com/PHILANI-MXA/time-converter'
       },
@@ -121,15 +121,15 @@ export default createStore({
         id: '5',
         Proimg: 'https://i.postimg.cc/B6YmSHfB/BMI-calculator.png',
         ProName: 'BMI calculator',
-        ProDescription: 'Capstone API for my final project hosted it with heroku',
-        ProTechLang: 'Javascript',
+        ProDescription: 'BMI calculator',
+        ProTechLang: 'JavaScript',
         live: 'https://effervescent-eclair-ba466e.netlify.app',
         github: 'https://github.com/PHILANI-MXA/BMI-calculator'
       },
       {
         id: '6',
         Proimg: 'https://i.postimg.cc/dQS4y2kb/One-Page-port.png',
-        ProName: 'FrontEnd Capstone',
+        ProName: 'Simple Portfolio',
         ProDescription: 'This is my final project I created a library website',
         ProTechLang: 'VueJS',
         live: 'https://philanimxathuleportfolio.netlify.app/',

@@ -29,7 +29,7 @@
             </div>
           </div>
         </div> -->
-            <h2 class="text-center bg-black my-5 p-3 fw-bolder text-white">Certificates</h2>
+            <h2 class="text-center bg-black my-5 p-3 fw-bolder text-white">Tech Certificates</h2>
             <div v-for="pic in certificates" class="cards" style="width: 18rem;">
                 <div class="card-body">
                     <h5 class="card-title"></h5>
