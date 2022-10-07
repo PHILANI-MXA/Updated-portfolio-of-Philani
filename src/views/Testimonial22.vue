@@ -1,7 +1,9 @@
 <template>
-    <div id="testimonials" class="container h-100 p-5 my-5 ">
+    <div id="testimonials" class="container h-100 p-5 my-5 m-auto">
         <h2 class="text-center bg-black my-5 p-3 fw-bolder text-white">Testimonials</h2>
-        <div>
+        <div class="row m-auto align-items-center">
+            <div class="col-md-2"><hr></div>
+            <div class="col justify-content-center align-items-center">
             <div>
                 <figure>
                     <img src="https://i.postimg.cc/g0pyf3Cg/Silizwe-2.jpg" alt="Portfolio Item">
@@ -52,6 +54,7 @@
             </figure>
         </div>
     </div>
+    </div>
 </template>
 
 <script>
@@ -87,6 +90,7 @@ body {
     font-family: sans-serif;
     font-size: 1.1em;
     line-height: 1.5;
+    margin: auto;
 }
 
 figure {
