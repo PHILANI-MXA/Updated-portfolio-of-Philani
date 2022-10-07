@@ -2,7 +2,8 @@
     <div id="testimonials" class="container h-100 p-5 my-5 m-auto">
         <h2 class="text-center bg-black my-5 p-3 fw-bolder text-white">Testimonials</h2>
         <div class="row m-auto align-items-center">
-            <div class="col-md-12 justify-content-center">
+            <div class="col-md-2"><hr></div>
+            <div class="col-md-9 justify-content-center">
             <div>
                 <figure>
                     <img src="https://i.postimg.cc/g0pyf3Cg/Silizwe-2.jpg" alt="Portfolio Item">
@@ -17,7 +18,7 @@
                 <figcaption>
                     <h6>Rasheedah</h6>
                     <p>Philani is very hardworking and possesses a keen attention to detail. He is always ready and
-                        willing to assist hipeerss .</p>
+                        willing to assist his peers .</p>
                 </figcaption>
             </figure>
             <figure>
@@ -96,7 +97,7 @@ body {
 figure {
     float: left;
     height: 15em;
-    margin: auto;
+    margin: au;
     width: 18em;
     -webkit-transform: perspective(500); 
     -webkit-transform-style: preserve-3d;
