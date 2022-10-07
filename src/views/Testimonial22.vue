@@ -2,8 +2,8 @@
     <div id="testimonials" class="container h-100 p-5 my-5 m-auto">
         <h2 class="text-center bg-black my-5 p-3 fw-bolder text-white">Testimonials</h2>
         <div class="row m-auto align-items-center">
-            <div class="col-md-2.5"><hr></div>
-            <div class="col-md-10 justify-content-center">
+            <div class="col-md-2"><hr></div>
+            <div class="col-md-9 justify-content-center">
             <div>
                 <figure>
                     <img src="https://i.postimg.cc/g0pyf3Cg/Silizwe-2.jpg" alt="Portfolio Item">
