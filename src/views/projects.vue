@@ -8,8 +8,8 @@
                     <h5 class="card-title">{{card.ProName}}</h5>
                     <h6 class="card-subtitle mb-2 text-muted">{{card.ProTechLang}}</h6>
                     <img class="img-fluid" :src="card.Proimg" alt="">
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
+                    <a href="#" class="card-link">live</a>
+                    <a href="#" class="card-link">github</a>
                     <br>
                 </div>
             </div>
@@ -72,7 +72,7 @@ export default {
 
 .card {
   width: 40%;
-  height: 400px;
+  height: 700px;
   background:  #e8eeef;
   text-align: center;
   color: #4E4C48;
