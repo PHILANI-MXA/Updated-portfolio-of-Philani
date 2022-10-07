@@ -8,8 +8,8 @@
                     <h5 class="card-title">{{card.ProName}}</h5>
                     <h6 class="card-subtitle mb-2 text-muted">{{card.ProTechLang}}</h6>
                     <img class="img-fluid" :src="card.Proimg" alt="">
-                    <a href="#" class="card-link">live</a>
-                    <a href="#" class="card-link">github</a>
+                    <a :href="card.github" class="yes btn btn-primaryd-flex btn-success flex-start">Ghub</a>
+                    <a :href="card.live" class="yes btn btn-primaryd-flex btn-danger flex-end">live</a>
                     <br>
                 </div>
             </div>
@@ -29,8 +29,8 @@
             </div>
           </div>
         </div> -->
-        <h2 class="text-center bg-black my-5 p-3 fw-bolder text-white">Certificates</h2>
-        <div v-for="pic in certificates" class="cards" style="width: 18rem;">
+            <h2 class="text-center bg-black my-5 p-3 fw-bolder text-white">Certificates</h2>
+            <div v-for="pic in certificates" class="cards" style="width: 18rem;">
                 <div class="card-body">
                     <h5 class="card-title"></h5>
                     <h6 class="card-subtitle mb-2 text-muted"></h6>
@@ -48,7 +48,7 @@ export default {
         projects() {
             return this.$store.state.projects;
         },
-        certificates(){
+        certificates() {
             return this.$store.state.certificates;
         }
     }
@@ -57,6 +57,10 @@ export default {
 </script>
   
 <style scoped>
+
+    .yes{
+        justify-content: space-around;
+    }
 /* .card {
     display: flex;
     flex-direction: row;
@@ -71,24 +75,25 @@ export default {
   } */
 
 .card {
-  width: 40%;
-  height: 700px;
-  background:  #e8eeef;
-  text-align: center;
-  color: #4E4C48;
-  font-size: 1.1em;
-  line-height: 100px;
-  
+    width: 40%;
+    height: 700px;
+    background: #e8eeef;
+    text-align: center;
+    color: #4E4C48;
+    font-size: 1.1em;
+    line-height: 100px;
+
 }
+
 .cards {
-  width: 40%;
-  height: 200px;
-  background:  #e8eeef;
-  text-align: center;
-  color: #4E4C48;
-  font-size: 1.1em;
-  line-height: 100px;
-  
+    width: 40%;
+    height: 200px;
+    background: #e8eeef;
+    text-align: center;
+    color: #4E4C48;
+    font-size: 1.1em;
+    line-height: 100px;
+
 }
 
 /* .card {
