@@ -97,7 +97,7 @@ body {
 figure {
     float: left;
     height: 15em;
-    margin: 1.8em;
+    margin: auto;
     width: 18em;
     -webkit-transform: perspective(500); 
     -webkit-transform-style: preserve-3d;
