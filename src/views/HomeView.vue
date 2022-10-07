@@ -34,7 +34,7 @@
         </h6>
         <img class="img-fluid m-auto" src="https://i.postimg.cc/gcDTptXY/IMG-7581.jpg"
           alt="">
-        <h6 class="fw-bold">Fullstack<br>Developer 
+        <h6 class="fw-bold">Fullstack<br>Developer
           <hr>
         </h6>
       </div>
@@ -45,7 +45,7 @@
     </div>
   </div>
 </template>
-  
+
 <script>
 export default {
   name: 'Home',
