@@ -6,50 +6,48 @@
                 <figure>
                     <img src="https://i.postimg.cc/g0pyf3Cg/Silizwe-2.jpg" alt="Portfolio Item">
                     <figcaption>
-                        <h3>Student</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, quam.</p>
+                        <h6>Siliziwe</h6>
+                        <p>Philani is a promising and open minded person. He is a multi skilled developer and I work well with him.</p>
                     </figcaption>
                 </figure>
             </div>
             <figure>
-                <img src="https://i.postimg.cc/1XDdybhR/Khanyiswa-2.jpg" alt="Portfolio Item">
+                <img src="https://i.postimg.cc/Fz6JLctV/image-6487327.jpg" alt="Portfolio Item">
                 <figcaption>
-                    <h3>Student</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolorum modi iste voluptatibus
-                        deserunt ullam!</p>
+                    <h6>Rasheedah</h6>
+                    <p>Philani is very hardworking and possesses a keen attention to detail. He is always ready and
+                        willing to assist hipeerss .</p>
                 </figcaption>
             </figure>
             <figure>
                 <img src="https://i.postimg.cc/kXryQrjr/Sibongile-2.jpg" alt="Portfolio Item">
                 <figcaption>
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente asperiores veritatis delectus
-                        hic.</p>
+                    <h6>Sibongile</h6>
+                    <p>Philani is open minded developer he takes his time whenever he encounters a problem he is always
+                        cool, calm and collected.</p>
                 </figcaption>
             </figure>
             <figure>
                 <img src="https://i.postimg.cc/rshkbdbJ/9-BF3-E51-D-57-C5-49-C6-BA88-AE494436-B96-B.jpg"
                     alt="Portfolio Item">
                 <figcaption>
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, minus quaerat! Nobis sed ut
-                        accusamus!</p>
+                    <h6>Lunga</h6>
+                    <p>Philani is a problem solver he does that with ease and peace of mind we work well together</p>
                 </figcaption>
             </figure>
             <figure>
                 <img src="https://i.postimg.cc/DZLSFN1s/Godwin22.jpg" alt="Portfolio Item">
                 <figcaption>
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eum aliquid labore totam assumenda
-                        voluptas!</p>
+                    <h6>Godwin</h6>
+                    <p>Philani is very passionate about coding now I can assure that he understands the code very well
+                    </p>
                 </figcaption>
             </figure>
             <figure>
                 <img src="https://i.postimg.cc/1Xqq4J2C/joel2.jpg" alt="Portfolio Item">
                 <figcaption>
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat corporis molestias quam
-                        molestiae pariatur maxime!</p>
+                    <h6>Joel</h6>
+                    <p>I hope that Philani can meet your expectations, he is so humble and goal orientated.</p>
                 </figcaption>
             </figure>
         </div>
@@ -74,10 +72,12 @@ AOS.init({
   
 <style scoped>
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
 * {
     font-family: Raleway, sans-serif;
     font-weight: bold;
 }
+
 body {
     background-color: #f6f6f6;
     background-image: -webkit-linear-gradient(left, hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0) 50%,

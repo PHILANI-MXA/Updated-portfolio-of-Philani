@@ -29,6 +29,15 @@
             </div>
           </div>
         </div> -->
+        <h2 class="text-center bg-black my-5 p-3 fw-bolder text-white">Certificates</h2>
+        <div v-for="pic in certificates" class="cards" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <h6 class="card-subtitle mb-2 text-muted"></h6>
+                    <img class="img-fluid" :src="pic.img" alt="">
+                    <br>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -38,6 +47,9 @@ export default {
     computed: {
         projects() {
             return this.$store.state.projects;
+        },
+        certificates(){
+            return this.$store.state.certificates;
         }
     }
 }
@@ -61,6 +73,16 @@ export default {
 .card {
   width: 40%;
   height: 400px;
+  background:  #e8eeef;
+  text-align: center;
+  color: #4E4C48;
+  font-size: 1.1em;
+  line-height: 100px;
+  
+}
+.cards {
+  width: 40%;
+  height: 200px;
   background:  #e8eeef;
   text-align: center;
   color: #4E4C48;

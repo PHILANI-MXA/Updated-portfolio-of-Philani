@@ -3,36 +3,66 @@ import { createStore } from 'vuex'
 
 export default createStore({
   state: {
-    Test: [
+    certificates: [
       {
-        img: '',
-        Name: '',
-        Description: ''
+        img: 'https://i.postimg.cc/VvXvhMyg/a021415d-3370-4e79-935b-0345abb787cf.png',
+        Name: 'HTML',
+        Description: 'Certificate'
       },
       {
-        img: '',
-        Name: '',
-        Description: ''
+        img: 'https://i.postimg.cc/VvXvhMyg/a021415d-3370-4e79-935b-0345abb787cf.png',
+        Name: 'CSS',
+        Description: 'Certificate'
       },
       {
-        img: '',
-        Name: '',
-        Description: ''
+        img: 'https://i.postimg.cc/VvXvhMyg/a021415d-3370-4e79-935b-0345abb787cf.png',
+        Name: 'JavaScript',
+        Description: 'Certificate'
       },
       {
-        img: '',
-        Name: '',
-        Description: ''
+        img: 'https://i.postimg.cc/VvXvhMyg/a021415d-3370-4e79-935b-0345abb787cf.png',
+        Name: 'Python',
+        Description: 'Certificate'
       },
       {
-        img: '',
-        Name: '',
-        Description: ''
+        img: 'https://i.postimg.cc/VvXvhMyg/a021415d-3370-4e79-935b-0345abb787cf.png',
+        Name: 'SQL',
+        Description: 'Certificate'
       },
       {
-        img: '',
-        Name: '',
-        Description: ''
+        img: 'https://i.postimg.cc/VvXvhMyg/a021415d-3370-4e79-935b-0345abb787cf.png',
+        Name: 'Fullstack Development',
+        Description: 'Certificate'
+      },
+      {
+        img: 'https://i.postimg.cc/VvXvhMyg/a021415d-3370-4e79-935b-0345abb787cf.png',
+        Name: 'Python',
+        Description: 'Certificate'
+      },
+      {
+        img: 'https://i.postimg.cc/VvXvhMyg/a021415d-3370-4e79-935b-0345abb787cf.png',
+        Name: 'SQL',
+        Description: 'Certificate'
+      },
+      {
+        img: 'https://i.postimg.cc/VvXvhMyg/a021415d-3370-4e79-935b-0345abb787cf.png',
+        Name: 'Fullstack Development',
+        Description: 'Certificate'
+      },
+      {
+        img: 'https://i.postimg.cc/VvXvhMyg/a021415d-3370-4e79-935b-0345abb787cf.png',
+        Name: 'Python',
+        Description: 'Certificate'
+      },
+      {
+        img: 'https://i.postimg.cc/VvXvhMyg/a021415d-3370-4e79-935b-0345abb787cf.png',
+        Name: 'SQL',
+        Description: 'Certificate'
+      },
+      {
+        img: 'https://i.postimg.cc/VvXvhMyg/a021415d-3370-4e79-935b-0345abb787cf.png',
+        Name: 'Fullstack Development',
+        Description: 'Certificate'
       }
     ],
     projects: [
