@@ -2,6 +2,9 @@
     <div id="projects" class="container h-100 p-5 my-5">
 
         <h2 class="text-center bg-black my-5 p-3 fw-bolder text-white">Projects</h2>
+        <router-link to="/skills">
+      <div class="backbutton">
+        <h1>Back</h1></div></router-link>
         <div class="row  justify-content-between gy-5">
             <div v-for="card in projects" class="card" style="width: 18rem;">
                 <div class="card-body">

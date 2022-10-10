@@ -33,7 +33,7 @@
                             <router-link class="text-decoration-none text-black" to="/contact">Contact me</router-link>
                         </li>
                         <li class="nav-item flex-end">
-                            <router-link class="text-decoration-none text-black" to="/projects">Projects</router-link>
+                            <router-link class="text-decoration-none text-black invisible" to="/projects">Projects</router-link>
                         </li>
                     </ul>
                 </div>

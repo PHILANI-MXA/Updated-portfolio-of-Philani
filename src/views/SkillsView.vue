@@ -152,7 +152,9 @@
                 </div>
             </div><br><br>
             <div class="text-center">
-                <button >Projects and Certificates</button>
+                <router-link to="/projects">
+      <div class="backbutton">
+        <button>Projects and Certificates</button></div></router-link>
             </div>
         </div>
         <hr>
