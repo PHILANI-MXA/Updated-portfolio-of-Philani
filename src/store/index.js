@@ -78,6 +78,11 @@ export default createStore({
         img: 'https://i.postimg.cc/FzxTXN6L/39a41778-ca40-4e02-af47-445457681f02.png',
         Name: 'Data Structures',
         Description: ''
+      },
+      {
+        img: 'https://i.postimg.cc/7h50hxTw/ecfb88b0-0394-470e-9de2-bdc00f6b1eb3.png',
+        Name: 'PHP',
+        Description: ''
       }
     ],
     projects: [
