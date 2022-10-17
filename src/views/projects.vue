@@ -1,12 +1,12 @@
 <template>
-    <div id="projects" class="container h-100 p-5 my-5">
+    <div id="projects" class="container h-100 p-5 my-5 overflow-auto">
 
         <h2 class="text-center bg-black my-5 p-3 fw-bolder text-white">Projects</h2>
         <router-link to="/skills">
       <div class="backbutton">
         <h1>Back</h1></div></router-link>
         <div class="row  justify-content-between gy-5">
-            <div v-for="card in projects" class="card" style="width: 18rem;">
+            <div v-for="card in projects" class="card">
                 <div class="card-body">
                     <h5 class="card-title">{{card.ProName}}</h5>
                     <h6 class="card-subtitle mb-2 text-muted">{{card.ProTechLang}}</h6>
@@ -33,7 +33,7 @@
           </div>
         </div> -->
             <h2 class="text-center bg-black my-5 p-3 fw-bolder text-white">Tech Certificates</h2>
-            <div v-for="pic in certificates" class="cards" style="width: 18rem;">
+            <div v-for="pic in certificates" class="cards">
                 <div class="card-body">
                     <h5 class="card-title"></h5>
                     <h6 class="card-subtitle mb-2 text-muted"></h6>
@@ -79,7 +79,7 @@ export default {
 
 .card {
     width: 40%;
-    height: 700px;
+    height: 100%;
     background: #e8eeef;
     text-align: center;
     color: #4E4C48;
@@ -90,7 +90,7 @@ export default {
 
 .cards {
     width: 40%;
-    height: 200px;
+    height: 100%;
     background: #e8eeef;
     text-align: center;
     color: #4E4C48;

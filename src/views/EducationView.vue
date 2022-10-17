@@ -206,7 +206,7 @@ img {
 }
 
 .item {
-  width: 500px;
+  width: 100%;
   height: 300px;
   background: #e8eeef;
   text-align: center;
