@@ -94,7 +94,7 @@
                                     </p>
                                     <div class="progress ">
                                         <div class="progress-bar bg-black" role="progressbar" style="width: 20%"
-                                            aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                         aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </li>
                             </ul>
@@ -155,7 +155,10 @@
                 <router-link to="/projects">
       <div class="backbutton">
         <button>Projects and Certificates</button></div></router-link>
-            </div>
+            </div><br>
+            <br><br><div class="text-center"><button><a href="https://i.postimg.cc/kMNGhs0Q/ecfb88b0-0394-470e-9de2-bdc00f6b1eb3.png" download>DOWNLOAD</a>
+                <br><br><!-- <button v-on:click="clickedDownload()">DOWNLOAD</button> opens files in new tab -->
+            </button></div>
         </div>
         <hr>
     </div>
@@ -169,13 +172,22 @@ export default {
     components: {
 
     },
+methods: {
+      clickedDownload(){
+      var fileName='https://i.postimg.cc/kMNGhs0Q/ecfb88b0-0394-470e-9de2-bdc00f6b1eb3.png';
+    window.open(fileName, 'Download');
+  }
+},
     mounted() {
         AOS.init()
-    }
+    },
+    
   }
 AOS.init({
     duration: 1000
-});
+},
+
+);
 </script>
 
 <style scoped>
