@@ -1,5 +1,5 @@
 <template>
-    <div id="about" class="p-5 my-5 container text-start vh-100 justify-content-between">
+    <div id="about" class="p-5 my-5 container text-start min-vh-100 justify-content-between">
         <h2 class="text-center bg-black p-3 fw-bolder p-3">About</h2>
         <div class="row p-3" data-aos="fade-right">
             <div class="col-md-4">

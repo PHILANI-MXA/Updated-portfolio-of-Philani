@@ -1,7 +1,7 @@
 <template>
 
-    <footer class="text-white text-center ">
-       <small>Made by Philani Mxathule copyrights &copy; 2022</small>
+    <footer class="text-center ">
+       <small class="text-black">Made by Philani Mxathule copyrights &copy; 2022</small>
        <div class="icons d-flex justify-content-between">
            <a href="#home" target="_blank">
                  <i class="bi bi-house"></i>
@@ -37,19 +37,7 @@
    export default {
        name: 'FooterComponent',
    
-       // data() {
-       //     return {
-               
-       //     };
-       // },
-   
-       // mounted() {
-           
-       // },
-   
-       // methods: {
-           
-       // },
+
    };
    </script>
    
@@ -59,6 +47,7 @@
    width: 100%;
    padding: 1px;
    background-color: #e8eeef;
+   z-index: 50;
    }
    
    a{
@@ -68,7 +57,5 @@
    a:hover{
      color: #070606;
    }
-   footer{
-    z-index: 50;
- }
+
    </style>
