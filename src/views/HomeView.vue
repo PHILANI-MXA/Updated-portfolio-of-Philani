@@ -22,12 +22,13 @@
 		<path fill="none" stroke="#173360" stroke-width="1" :d="floatPoints"/>
 		<path class="background__path" fill="none" stroke="#173360" stroke-width="2" :d="floatPoints"/>
 	</svg>
+	
 
 
-	<a href="#" class="button button--blue my-5 mb-5 gy-5">
+	<router-link to="single"> <a href="#" class="button button--blue my-5 mb-5 gy-5">
 		<svg class="button__border"><use xlink:href="#snake"></use></svg>
 		<span class="button__label">find out more</span>
-	</a>
+	</a> </router-link>
 </main>
         <h6 class="fw-bold">Aspiring <br>
           <hr>
