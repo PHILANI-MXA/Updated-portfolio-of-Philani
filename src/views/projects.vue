@@ -16,22 +16,6 @@
                     <br>
                 </div>
             </div>
-            <!-- <div v-for="card in projects" class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img :src="card.Proimg" class="img-fluid rounded-start" alt="title">
-            </div>
-            <p>{{card.ProName}}</p>
-            <p>{{card.ProTechLang}}</p>
-            <a :href="card.github" class="btn btn-primaryd-flex btn-success justify-content-between">Ghub</a>
-            <a :href="card.live" class="btn btn-primaryd-flex btn-danger justify-content-between">live</a>
-            <div class="col-md-8 border border-black">
-            <div class="card-body">
-            <h5 class="card-title">{{card.projectname}}</h5>
-            </div>
-            </div>
-          </div>
-        </div> -->
             <h2 class="text-center bg-black my-5 p-3 fw-bolder text-white">Tech Certificates</h2>
             <div v-for="pic in certificates" class="cards">
                 <div class="card-body">
@@ -64,18 +48,6 @@ export default {
     .yes{
         justify-content: space-around;
     }
-/* .card {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    color: white;
-    font-family: San-Francisco;
-    border-radius: 10px;
-    transition: 0.4s ease-out;
-    width: 28%;
-  } */
 
 .card {
     width: 40%;
