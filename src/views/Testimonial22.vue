@@ -1,10 +1,10 @@
 <template>
-    <div id="testimonials" class="container h-100 p-5 my-5 m-auto">
+    <div id="testimonials" class="container h-100 p-5 my-5 m-auto justify-content-between">
         <h2 class="text-center bg-black my-5 p-3 fw-bolder text-white">Testimonials</h2>
-        <div class="row m-auto align-items-center">
+        <div class="row m-auto align-items-center d-flex">
             <div class="col-md-2"><hr></div>
-            <div class="col-md-9 justify-content-center">
-            <div>
+            <div class="col-md-9 justify-content-between px-4">
+            <div class="px-4">
                 <figure>
                     <img src="https://i.postimg.cc/g0pyf3Cg/Silizwe-2.jpg" alt="Portfolio Item">
                     <figcaption>
@@ -21,6 +21,7 @@
                         willing to assist his peers .</p>
                 </figcaption>
             </figure>
+            <div class="px-4">
             <figure>
                 <img src="https://i.postimg.cc/kXryQrjr/Sibongile-2.jpg" alt="Portfolio Item">
                 <figcaption>
@@ -37,6 +38,8 @@
                     <p>Philani is a problem solver he does that with ease and peace of mind we work well together</p>
                 </figcaption>
             </figure>
+        </div>
+        <div class="px-4">
             <figure>
                 <img src="https://i.postimg.cc/DZLSFN1s/Godwin22.jpg" alt="Portfolio Item">
                 <figcaption>
@@ -52,6 +55,7 @@
                     <p>I hope that Philani can meet your expectations, he is so humble and goal orientated.</p>
                 </figcaption>
             </figure>
+        </div>
         </div>
         <div class="col-md-1"><hr></div>
     </div>
