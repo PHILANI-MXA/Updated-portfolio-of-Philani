@@ -132,7 +132,7 @@ img {
 
 .item {
   width: 100%;
-  height: 300px;
+  height: 345px;
   background: #e8eeef;
   text-align: center;
   color: #4E4C48;
