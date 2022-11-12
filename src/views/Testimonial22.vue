@@ -4,7 +4,7 @@
         <div class="row m-auto align-items-center d-flex">
             <div class="col-md-2"><hr></div>
             <div class="col-md-9 justify-content-between px-4 m-auto">
-            <div class="px-4">
+            <div class="m-auto">
                 <figure>
                     <img src="https://i.postimg.cc/g0pyf3Cg/Silizwe-2.jpg" alt="Portfolio Item">
                     <figcaption>
@@ -21,7 +21,7 @@
                 </figcaption>
             </figure>
         </div>
-            <div class="px-4">
+            <div class="m-auto">
             <figure>
                 <img src="https://i.postimg.cc/kXryQrjr/Sibongile-2.jpg" alt="Portfolio Item">
                 <figcaption>
@@ -39,7 +39,7 @@
                 </figcaption>
             </figure>
         </div>
-        <div class="px-4 gx-5">
+        <div class="m-auto">
             <figure>
                 <img src="https://i.postimg.cc/DZLSFN1s/Godwin22.jpg" alt="Portfolio Item">
                 <figcaption>
