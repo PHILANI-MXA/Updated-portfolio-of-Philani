@@ -69,7 +69,7 @@
         </figure>
       </div>
     </div>
-    <div class="row row d-inline-flex">
+    <div class="row row d-inline-flex flex-start">
       <div class="col-md-6 item" data-aos="fade-right">
         <figure>
           <img
