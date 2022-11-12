@@ -3,7 +3,7 @@
         <h2 class="text-center bg-black my-5 p-3 fw-bolder text-white">Testimonials</h2>
         <div class="row m-auto align-items-center d-flex">
             <div class="col-md-2"><hr></div>
-            <div class="col-md-9 justify-content-between px-4">
+            <div class="col-md-9 justify-content-between px-4 m-auto">
             <div class="px-4">
                 <figure>
                     <img src="https://i.postimg.cc/g0pyf3Cg/Silizwe-2.jpg" alt="Portfolio Item">
@@ -12,7 +12,6 @@
                         <p>Philani is a promising and open minded person. He is a multi skilled developer and I work well with him.</p>
                     </figcaption>
                 </figure>
-            </div>
             <figure>
                 <img src="https://i.postimg.cc/Fz6JLctV/image-6487327.jpg" alt="Portfolio Item">
                 <figcaption>
@@ -21,6 +20,7 @@
                         willing to assist his peers .</p>
                 </figcaption>
             </figure>
+        </div>
             <div class="px-4">
             <figure>
                 <img src="https://i.postimg.cc/kXryQrjr/Sibongile-2.jpg" alt="Portfolio Item">
@@ -39,7 +39,7 @@
                 </figcaption>
             </figure>
         </div>
-        <div class="px-4">
+        <div class="px-4 gx-5">
             <figure>
                 <img src="https://i.postimg.cc/DZLSFN1s/Godwin22.jpg" alt="Portfolio Item">
                 <figcaption>
