@@ -195,6 +195,7 @@ figcaption {
 figure:hover figcaption {
   box-shadow: 0 20px 15px -10px hsla(0, 0%, 0%, 0.25);
 }
+/*
 .row {
   background: #ffffff;
   color: #898989;
@@ -210,7 +211,7 @@ figure:hover figcaption {
   -o-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-}
+}*/
 
 img {
   border-radius: 10px;
@@ -218,13 +219,12 @@ img {
 }
 
 .item {
-  width: 50%;
+  width: 100%;
   height: 345px;
   background: #e8eeef;
   text-align: center;
   color: #4e4c48;
   font-size: 1.1em;
-  flex-wrap: wrap;
 }
 
 </style>
