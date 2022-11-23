@@ -22,9 +22,6 @@
 		<path fill="none" stroke="#173360" stroke-width="1" :d="floatPoints"/>
 		<path class="background__path" fill="none" stroke="#173360" stroke-width="2" :d="floatPoints"/>
 	</svg>
-	
-
-
 	<router-link to="single"> <a href="#" class="button button--blue my-5 mb-5 gy-5">
 		<svg class="button__border"><use xlink:href="#snake"></use></svg>
 		<span class="button__label">find out more</span>

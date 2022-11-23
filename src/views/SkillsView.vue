@@ -150,12 +150,12 @@
                         </div>
                     </div>
                 </div>
-            </div><br><br>
+            </div>
             <div class="text-center">
                 <router-link to="/projects">
       <div class="backbutton">
         <button>Projects and Certificates</button></div></router-link>
-            </div><br>
+            </div>
         </div>
         <hr>
     </div>

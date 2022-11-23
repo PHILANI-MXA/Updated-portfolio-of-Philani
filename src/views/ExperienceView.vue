@@ -1,6 +1,6 @@
 <template>
 
-  <div id="education" class="container text-start my-5 p-4 h-100 justify-content-between">
+  <div id="education" class="container text-start my-3 p-4 h-100 justify-content-between">
     <h2 class="text-center bg-black my-5 p-3 fw-bolder">Experience</h2>
     <div class="row">
       <div class="col-md-6" >

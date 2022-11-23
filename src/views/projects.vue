@@ -13,7 +13,6 @@
                     <img class="img-fluid" :src="card.Proimg" alt="">
                     <a :href="card.github" class="yes btn btn-primaryd-flex btn-success flex-start">Ghub</a>
                     <a :href="card.live" class="yes btn btn-primaryd-flex btn-danger flex-end">live</a>
-                    <br>
                 </div>
             </div>
             <h2 class="text-center bg-black my-5 p-3 fw-bolder text-white">Tech Certificates</h2>
@@ -22,7 +21,6 @@
                     <h5 class="card-title"></h5>
                     <h6 class="card-subtitle mb-2 text-muted"></h6>
                     <img class="img-fluid" :src="pic.img" alt="">
-                    <br>
                 </div>
             </div>
         </div>

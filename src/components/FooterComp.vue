@@ -1,6 +1,6 @@
 <template>
 
-    <footer class="text-center ">
+    <footer class="text-center">
        <small class="text-black">Made by Philani Mxathule copyrights &copy; 2022</small>
        <div class="icons d-flex justify-content-between">
            <a href="#home" target="_blank">
