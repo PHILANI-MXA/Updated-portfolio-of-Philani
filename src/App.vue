@@ -1,21 +1,20 @@
 <template>
   <div>
-    <NavComp/>
-    <footer-comp/>
+    <NavComp />
+    <footer-comp />
   </div>
 </template>
 
 <script>
-import FooterComp from './components/FooterComp.vue';
-import NavComp from './components/NavComp.vue';
+import FooterComp from "./components/FooterComp.vue";
+import NavComp from "./components/NavComp.vue";
 export default {
-  name: '',
+  name: "",
   components: {
     NavComp,
-    FooterComp
-}
-}
-
+    FooterComp,
+  },
+};
 </script>
 
 <style lang="scss">

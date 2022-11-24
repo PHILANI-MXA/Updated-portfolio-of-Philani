@@ -2,12 +2,11 @@
   <div class="container m-auto">
     <home-view />
     <about-view />
-    <education-view/>
-    <experience-view/>
-    <skills-view/>
-    <Testimonials/>
-    <contact-view/>
-    
+    <education-view />
+    <experience-view />
+    <skills-view />
+    <Testimonials />
+    <contact-view />
   </div>
 </template>
 
@@ -16,10 +15,9 @@ import HomeViewVue from "./HomeView.vue";
 import AboutView from "./AboutView.vue";
 import EducationView from "./EducationView.vue";
 import ExperienceView from "./ExperienceView.vue";
-import SkillsView from './SkillsView.vue';
-import Testimonials from './Testimonial22.vue';
-import contact from "./contact.vue"
-
+import SkillsView from "./SkillsView.vue";
+import Testimonials from "./Testimonial22.vue";
+import contact from "./contact.vue";
 
 export default {
   name: "",
@@ -30,7 +28,7 @@ export default {
     ExperienceView,
     SkillsView,
     Testimonials,
-    contact
+    contact,
   },
 };
 </script>

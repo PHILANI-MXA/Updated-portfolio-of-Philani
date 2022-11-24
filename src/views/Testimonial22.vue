@@ -5,7 +5,6 @@
   >
     <h2 class="text-center bg-black my-5 p-3 fw-bolder">Testimonials</h2>
     <div class="row d-inline-flex">
-
       <div class="col-md-6 item" data-aos="fade-right">
         <figure>
           <img
@@ -129,7 +128,7 @@ AOS.init({
 }
 
 template {
-    margin: auto;
+  margin: auto;
 }
 
 body {
@@ -226,5 +225,4 @@ img {
   color: #4e4c48;
   font-size: 1.1em;
 }
-
 </style>
