@@ -3,12 +3,12 @@
     <footer class="text-center">
        <small class="text-black">Made by Philani Mxathule copyrights &copy; 2022</small>
        <div class="icons d-flex justify-content-between">
-           <a href="home" >
+           <router-link to="home"><a href="home" >
                  <i class="bi bi-house"></i>
-               </a>
-           <a href="about" >
+               </a></router-link>
+           <router-link to="about"><a href="about" >
                  <i class="bi bi-file-person"></i>
-               </a>
+               </a></router-link>
            <a href="education" >
                  <i class="bi bi-mortarboard-fill"></i>
                </a>
