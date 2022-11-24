@@ -3,30 +3,30 @@
     <footer class="text-center">
        <small class="text-black">Made by Philani Mxathule copyrights &copy; 2022</small>
        <div class="icons d-flex justify-content-between">
-           <router-link to="home"><a href="home" >
+           <router-link to="/"><a href="home" >
                  <i class="bi bi-house"></i>
                </a></router-link>
-           <router-link to="about"><a href="about" >
+           <router-link to="about"><a href="#" >
                  <i class="bi bi-file-person"></i>
                </a></router-link>
-           <a href="education" >
+           <router-link to="education"><a href="#" >
                  <i class="bi bi-mortarboard-fill"></i>
-               </a>
-                <a href="projects" >
+               </a></router-link>
+                <router-link to="projects"><a href="#" >
                 <i class="bi bi-briefcase"></i>
-               </a>
-           <a href="skills" >
+               </a></router-link>
+           <router-link to="skills"><a href="#" >
                  <i class="bi bi-code-slash"></i>
-               </a>
-           <a href="certificates" >
+               </a></router-link>
+           <router-link to="skills"><a href="#" >
                  <i class="bi bi-bag-x"></i>
-               </a>
-                <a href="testimonials" >
+               </a></router-link>
+                <router-link to="testimonials22"><a href="#" >
                  <i class="bi bi-person-rolodex"></i>
-               </a>
-                 <a href="contact" >
+               </a></router-link>
+                 <router-link to="contact"><a href="contact" >
                    <i class="bi bi-telephone"></i>
-               </a>
+               </a></router-link>
              
          </div>
      </footer>
