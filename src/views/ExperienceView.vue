@@ -22,6 +22,11 @@
                   negotiating with customers to engage or participate in
                   promotional activities within a certain period.
                 </p>
+                <p>Staying up to date with product or service features.</p>
+                <p>
+                  Answering any questions potential customers might have about a
+                  product or service.
+                </p>
               </div>
             </div>
             <hr />
@@ -49,7 +54,7 @@
               </div>
             </div>
           </div>
-          <hr/>
+          <hr />
         </div>
       </div>
       <div class="col-md-6">
@@ -59,15 +64,25 @@
             <h6 class="text-black">Promoter</h6>
             <h6></h6>
             <p>
-              Promoting ciggarets for retail stores, influencing customers to
-              buy ciggarets that are associated with BAT
+              Promoting cigarettes for retail stores, influencing customers to
+              buy cigarettes that are associated with BAT
+            </p>
+            <p>
+              Demonstrating the features of a product or service to potential
+              customers.
+            </p>
+            <p>Recording transactions and stock levels.</p>
+            <p>
+              Generating reports that outline customers interest levels,
+              questions asked, number of cigarettes sold and/or distributed at
+              various events.
             </p>
           </div>
         </div>
         <hr />
         <div class="my-3 text-black">
           <div class="item" data-aos="fade-left">
-            <div class="my-3 text-black">
+            <div class="text-black">
               <h4 class="text-black">Lifechoices Studio</h4>
               <h6 class="text-black">
                 Intern/Student <span class="fw-bold">[Web development]</span>
@@ -133,7 +148,7 @@ AOS.init({
   box-sizing: border-box;
 }
 
-.cum{
+.cum {
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -151,6 +166,5 @@ img {
   color: #4e4c48;
   font-size: 1.1em;
   overflow-y: auto;
-  
 }
 </style>

@@ -106,15 +106,19 @@
           </p>
 
           <p class="text-black myself" data-aos="zoom-in-up">
-            I enjoy continous learning because knowing is not enough. I am
+            I enjoy continuous learning because knowing is not enough. I am
             self-disciplined, flexible and I can multi-task. I am able to take
-            the responsility and perform tasks as an individual but I can also
+            the responsibility and perform tasks as an individual but I can also
             work in teams. I believe I have good communication skills and I
             enjoy working in a diversified working environment because I value
             and respect other cultures.
           </p>
         </div>
       </div>
+    </div>
+    <div>
+      <h6>Career Objective</h6>
+      
     </div>
   </div>
 </template>

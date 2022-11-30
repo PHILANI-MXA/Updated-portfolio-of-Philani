@@ -221,6 +221,7 @@
           </div>
         </div>
       </div>
+      
       <div class="text-center">
         <router-link to="/projects">
           <div class="backbutton">
