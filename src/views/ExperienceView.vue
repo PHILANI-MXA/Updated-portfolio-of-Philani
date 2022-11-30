@@ -17,6 +17,11 @@
                   Store promoter, promoting various items for different retail
                   companies.
                 </p>
+                <p>communicating and interacting with customers.</p>
+                <p>
+                  negotiating with customers to engage or participate in
+                  promotional activities within a certain period.
+                </p>
               </div>
             </div>
             <hr />
@@ -31,10 +36,20 @@
                   PAY interns payslip processing Overtime, Performance
                   Management
                 </p>
+                <ul>
+                  <li>
+                    Have successfully completed Persal Introduction certificate
+                    with <span class="cum"> cum laude pass </span>
+                  </li>
+                  <li>
+                    Have successfully completed Personnel Administration
+                    certificate with <span class="cum"> cum laude pass </span>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-          <hr />
+          <hr/>
         </div>
       </div>
       <div class="col-md-6">
@@ -54,12 +69,24 @@
           <div class="item" data-aos="fade-left">
             <div class="my-3 text-black">
               <h4 class="text-black">Lifechoices Studio</h4>
-              <h6 class="text-black">Web developer Intern/Student</h6>
+              <h6 class="text-black">
+                Intern/Student <span class="fw-bold">[Web development]</span>
+              </h6>
+              <p class="fw-bold">
+                Intensive engagement with coding learning journeys
+              </p>
+              <ul>
+                <li>Fullstack development learning journey 6 months</li>
+                <li>VueJS, React and TypeScript</li>
+                <li>Vite and Tailwind CSS</li>
+                <li>PostgresSQL</li>
+                <li>WordPress</li>
+                <li>PHP</li>
+              </ul>
               <p>
-                Duties: Creating website based projects using programming
-                languages that we are learning at the academy. Place for
-                upskilling myself. Attending professional development trainigs
-                and boosting my soft skills
+                The first learning journey in the list was part of my studies
+                and the rest was part of my internship
+                <span class="fw-bold">[ Aggregate pass mark of 80% ]</span>
               </p>
             </div>
           </div>
@@ -106,17 +133,24 @@ AOS.init({
   box-sizing: border-box;
 }
 
+.cum{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 img {
   border-radius: 10px;
   box-shadow: solid grey;
 }
 
 .item {
-  width: 100%;
-  height: 300px;
+  min-width: 100%;
+  height: 315px;
   background: #e8eeef;
   text-align: center;
   color: #4e4c48;
   font-size: 1.1em;
+  overflow-y: auto;
+  
 }
 </style>

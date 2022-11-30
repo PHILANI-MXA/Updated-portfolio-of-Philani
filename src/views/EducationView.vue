@@ -72,7 +72,7 @@
           <div class="item" data-aos="fade-left">
             <div class="my-3 text-black">
               <h4 class="my-2">6 Months Coding Course</h4>
-              <h6>Cohort 10 : April - September 2022</h6>
+              <h6><span class="fw-bold">[Cohort 10]</span> 28 March 2022 - 16 September 2022</h6>
               <h6>Lifechoices Academy</h6>
               <p>Languages</p>
               <ul>
