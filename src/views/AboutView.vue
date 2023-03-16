@@ -116,10 +116,6 @@
         </div>
       </div>
     </div>
-    <div>
-      <h6>Career Objective</h6>
-      
-    </div>
   </div>
 </template>
 
