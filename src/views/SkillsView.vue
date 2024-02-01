@@ -1,7 +1,7 @@
 <template>
   <div
     id="skills"
-    class="container text-start h-100 my-5 p-5 justify-content-between overflow-auto"
+    class="container text-start min-vh-100 my-5 p-5 justify-content-between overflow-auto"
   >
     <h2 class="text-center bg-black my-2 p-3 fw-bolder">Skills</h2>
     <div class="row p-4">

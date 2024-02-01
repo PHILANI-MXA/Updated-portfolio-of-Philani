@@ -81,9 +81,10 @@
         </h6>
         <img
           class="img-fluid m-auto"
-          src="https://i.postimg.cc/gcDTptXY/IMG-7581.jpg"
+          src="https://i.ibb.co/XJHNyVd/Philani-3-1.jpg"
           alt=""
         />
+        <!-- <img src="https://i.ibb.co/XJHNyVd/Philani-3-1.jpg" alt="Philani-3-1" border="0" class="m"> -->
         <h6 class="fw-bold">
           Fullstack<br />Developer
           <hr />

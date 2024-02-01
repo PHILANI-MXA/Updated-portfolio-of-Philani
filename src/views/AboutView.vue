@@ -1,7 +1,7 @@
 <template>
   <div
     id="about"
-    class="p-5 my-5 container text-start h-100 justify-content-between"
+    class="p-5 my-5 container text-start min-vh-100 justify-content-between"
   >
     <h2 class="text-center bg-black fw-bolder p-3">About</h2>
     <div class="row p-3" data-aos="fade-right">

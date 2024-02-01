@@ -1,7 +1,7 @@
 <template>
   <footer class="text-center">
     <small class="text-black"
-      >Made by Philani Mxathule copyrights &copy; 2023</small
+      >Made by Philani Mxathule copyrights &copy; 2024</small
     >
     <div class="icons d-flex justify-content-between">
       <router-link to="/"

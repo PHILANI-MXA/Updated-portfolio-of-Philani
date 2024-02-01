@@ -1,5 +1,5 @@
 <template>
-  <div id="projects" class="container h-100 p-5 my-5 overflow-auto">
+  <div id="projects" class="container min-vh-100 p-5 my-5 overflow-auto">
     <h2 class="text-center bg-black my-5 p-3 fw-bolder text-white">Projects</h2>
     <router-link to="/skills">
       <div class="backbutton">
