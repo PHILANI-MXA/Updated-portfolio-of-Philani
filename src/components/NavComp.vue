@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
-          ><img src="https://i.postimg.cc/KY6s82D6/favicon-32x32.png" alt=""
+          ><img src="https://i.ibb.co/LtRKHxs/favicon-32x32.png"
         /></a>
         <button
           class="navbar-toggler"
@@ -17,7 +17,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav me-auto">
+          <ul class="navbar-nav m-auto">
             <li class="nav-item text-white">
               <router-link class="text-decoration-none text-black" to="/"
                 >Home</router-link
@@ -53,11 +53,6 @@
                 to="/testimonials22"
                 >Testimonials
               </router-link>
-            </li>
-            <li class="nav-item">
-              <router-link class="text-decoration-none text-black" to="/contact"
-                >Contact me</router-link
-              >
             </li>
             <li class="nav-item flex-end">
               <router-link
@@ -101,7 +96,7 @@ nav {
   position: fixed;
   width: 100%;
   top: 0;
-  background-color: #e8eeef;
+  background-color:#fff;
   z-index: 50;
 }
 </style>

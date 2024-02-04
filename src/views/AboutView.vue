@@ -3,7 +3,7 @@
     id="about"
     class="p-5 my-5 container text-start min-vh-100 justify-content-between"
   >
-    <h2 class="text-center bg-black fw-bolder p-3">About</h2>
+    <h2 class="text-center fw-bolder p-3">About</h2>
     <div class="row p-3" data-aos="fade-right">
       <div class="col-md-4">
         <div class="">
@@ -150,7 +150,6 @@ AOS.init({
 } */
 
 .row {
-  background: #ffffff;
   color: #898989;
   font-family: "Poppins", helvetica;
   font-size: 15px;

@@ -1,6 +1,6 @@
 <template>
   <div id="contact" class="container min-h-100 py-4 my-5">
-    <h2 class="text-center bg-black my-5 p-3 fw-bolder">Contact</h2>
+    <h2 class="text-center  my-5 p-3 fw-bolder">Contact</h2>
     <div class="row">
       <div class="col-4"></div>
 
@@ -96,7 +96,7 @@ select {
 button {
   padding: 19px 39px 18px 39px;
   color: #fff;
-  background-color: black;
+  background-color:#ffffffc8;
   font-size: 18px;
   text-align: center;
   font-style: normal;
@@ -129,7 +129,7 @@ label.light {
 }
 
 .number {
-  background-color: black;
+  background-color: #c2cbc5;
   color: #fff;
   height: 30px;
   width: 30px;

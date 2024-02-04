@@ -51,7 +51,7 @@ footer {
   bottom: 0;
   width: 100%;
   padding: 1px;
-  background-color: #e8eeef;
+  background-color:#fff;
   z-index: 50;
 }
 
