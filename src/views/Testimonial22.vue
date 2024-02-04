@@ -132,7 +132,6 @@ template {
 }
 
 body {
-  background-color: #f6f6f6;
   background-image: -webkit-linear-gradient(
       left,
       hsla(0, 0%, 0%, 0) 0%,
@@ -183,7 +182,6 @@ figure:hover img {
 }
 
 figcaption {
-  background-color: #222;
   color: #fff;
   padding: 1.5em;
   -webkit-transform: rotateX(-90deg);

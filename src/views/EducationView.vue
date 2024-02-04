@@ -3,7 +3,7 @@
     id="education"
     class="container text-start my-5 p-4 h-100 justify-content-between"
   >
-    <h2 class="text-center bg-black my-5 p-3 fw-bolder">Education</h2>
+    <h2 class="text-center my-5 p-3 fw-bolder">Education</h2>
     <div class="row">
       <div class="col-md-6">
         <div class="">
@@ -113,7 +113,6 @@ AOS.init({
 }
 
 .row {
-  background: #ffffff;
   color: #898989;
   font-family: "Poppins", helvetica;
   font-size: 15px;
@@ -137,7 +136,7 @@ img {
 .item {
   width: 100%;
   height: 345px;
-  background: #e8eeef;
+
   text-align: center;
   color: #4e4c48;
   font-size: 1.1em;

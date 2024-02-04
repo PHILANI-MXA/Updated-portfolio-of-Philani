@@ -253,7 +253,6 @@ AOS.init({
   font-family: Raleway, sans-serif;
 }
 .row {
-  background: #ffffff;
   color: #898989;
   font-family: "Poppins", helvetica;
   font-size: 15px;

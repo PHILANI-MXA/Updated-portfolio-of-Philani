@@ -132,7 +132,6 @@ AOS.init({
 }
 
 .row {
-  background: #ffffff;
   color: #898989;
   font-family: "Poppins", helvetica;
   font-size: 15px;
@@ -161,7 +160,6 @@ img {
 .item {
   min-width: 100%;
   height: 315px;
-  background: #e8eeef;
   text-align: center;
   color: #4e4c48;
   font-size: 1.1em;

@@ -20,60 +20,55 @@
       </div>
       <div class="col-md-4 details" data-aos="flip-right">
         <div class="row text-black details">
-          <p class="col-4 details"><small>DOB </small></p>
+          <p class="col-4 details">DOB</p>
           <p class="col-1">:</p>
-          <p class="col-2 details"><small> 19990429 </small></p>
+          <p class="col-2 details">19990429</p>
         </div>
         <div class="row text-black details">
-          <p class="col-4 details"><small>Cell no</small></p>
+          <p class="col-4 details">Cell no</p>
           <p class="col-1">:</p>
-          <p class="col-2 details"><small>0646778134 </small></p>
+          <p class="col-2 details">0646778134</p>
         </div>
         <div class="row text-black details">
-          <p class="col-4 details"><small>Age </small></p>
+          <p class="col-4 details">Age</p>
           <p class="col-1">:</p>
-          <p class="col-2 details"><small>23</small></p>
+          <p class="col-2 details">25</p>
         </div>
         <div class="row text-black details">
-          <p class="col-4 details"><small>Gender </small></p>
+          <p class="col-4 details">Gender</p>
           <p class="col-1">:</p>
-          <p class="col-2 details"><small>Male</small></p>
+          <p class="col-2 details">Male</p>
         </div>
         <div class="row text-black details">
-          <p class="col-4 details"><small>Driver's License</small></p>
+          <p class="col-4 details">Drivers License</p>
           <p class="col-1">:</p>
-          <p class="col-2 details"><small>Yes </small></p>
+          <p class="col-2 details">Yes</p>
         </div>
         <div class="row text-black details">
-          <p class="col-4 details"><small>C-19 Vaccine </small></p>
+          <p class="col-4 details">Health Status</p>
           <p class="col-1">:</p>
-          <p class="col-2 details"><small>Fully Vaccinated</small></p>
+          <p class="col-2 details">Excellent</p>
         </div>
         <div class="row text-black details">
-          <p class="col-4 details"><small>Health Status </small></p>
+          <p class="col-4 details">status of employment</p>
           <p class="col-1">:</p>
-          <p class="col-2 details"><small>Excellent</small></p>
-        </div>
-        <div class="row text-black details">
-          <p class="col-4 details"><small>status of employment</small></p>
-          <p class="col-1">:</p>
-          <p class="col-2 details"><small>Student Intern</small></p>
-        </div>
-        <div class="row text-black details">
-          <p class="col-4 details"><small>Host</small></p>
-          <p class="col-1">:</p>
-          <p class="col-2 details"><small>Life Choices</small></p>
+          <p class="col-2 details">RPA dev Intern</p>
         </div>
         <div class="row text-black">
-          <p class="col-4 details"><small>Criminal Record </small></p>
+          <p class="col-4 details">Criminal Record</p>
           <p class="col-1">:</p>
-          <p class="col-2 details"><small> Clear </small></p>
+          <p class="col-2 details">Clear</p>
         </div>
         <div class="row text-black details">
-          <p class="col-4 details"><small>Religion </small></p>
+          <p class="col-4 details">Religion></p>
           <p class="col-1">:</p>
-          <p class="col-2 details"><small> Christianity </small></p>
+          <p class="col-2 details">Christianity</p>
         </div>
+        <button class="mx-5 px-3 hire-btn">
+          <a href="./public/documents/CV of Philani Mxathule recent.pdf"
+            download="./public/documents/CV of Philani Mxathule recent.pdf"
+           >Resume</a>
+        </button>
 
         <div></div>
       </div>
@@ -151,7 +146,7 @@ AOS.init({
 
 .row {
   color: #898989;
-  font-family: "Poppins", helvetica;
+  font-family: "Lucida Console", "Courier New", monospace;
   font-size: 15px;
   font-weight: 300;
   line-height: 20px;
@@ -169,4 +164,39 @@ img {
   border-radius: 10px;
   box-shadow: solid grey;
 }
+
+.text-container button{
+	width: 130px;
+	height: 42px;
+	border-radius: 12px;
+	font-weight: 500;
+	outline: none;
+	margin: 0px 10px;
+}
+.hire-btn{
+	border: none;
+	color:#373636;
+	transition: all 200ms;
+	opacity:0;
+	animation:intro1 2s ease forwards;
+	animation-delay: 5s;
+}
+.hire-btn:hover{
+	transform: scale(1.1);
+	transition: all 200ms;
+	box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
+.hire-btn:active{
+	transform: scale(.8);
+}
+button:active{
+	transform: scale(.9);
+}
+.animate{
+	animation: fade-in 2s ease;
+}
+@keyframes fade-in{
+	from{opacity: 0; transform: scale(0) translateX(200%);}
+}
+
 </style>

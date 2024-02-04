@@ -1,6 +1,6 @@
 <template>
   <div class="container p-5 min-vh-100">
-  <div class="text-container ">
+  <div class="text-container">
     <p>Hi there!</p>
     <h2>I am Philani </h2>
     <p>I'm a Software Developer <br>& Web Designer</p>
