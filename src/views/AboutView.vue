@@ -42,7 +42,7 @@
         <div class="row text-black details">
           <p class="col-4 details">Drivers License</p>
           <p class="col-1">:</p>
-          <p class="col-2 details">Yes</p>
+          <p class="col-2 details">Code B, C1</p>
         </div>
         <div class="row text-black details">
           <p class="col-4 details">Health Status</p>
@@ -87,10 +87,12 @@
             Bio
           </h6>
           <p class="text-black myself">
-            Hi there! my name is Philani Mxathule 23, I matriculated in 2017. in
-            2018 I did my first internship by the Western Cape government at
-            department of cultural affairs and sport in the SOMS unit [Strategic
-            and Operations Management Services] a year longer contract.
+            As a dynamic and adaptable young adult with a strong technical skill set, 
+            I bring a versatile ability to navigate through various tasks in the software development cycle. 
+            Currently working as an RPA (Robotic Process Automation) developer intern at the Samsung Future 
+            Innovation Lab within the University of the Western Cape, I am passionate about connecting revolutionary technologies to drive innovation. 
+            I am committed to continuous growth and willingly embracing the opportunity 
+            to acquire new skills that contribute to my professional development.
           </p>
 
           <p class="text-black myself" data-aos="zoom-in-up">
@@ -100,14 +102,7 @@
             to be solved.
           </p>
 
-          <p class="text-black myself" data-aos="zoom-in-up">
-            I enjoy continuous learning because knowing is not enough. I am
-            self-disciplined, flexible and I can multi-task. I am able to take
-            the responsibility and perform tasks as an individual but I can also
-            work in teams. I believe I have good communication skills and I
-            enjoy working in a diversified working environment because I value
-            and respect other cultures.
-          </p>
+         
         </div>
       </div>
     </div>

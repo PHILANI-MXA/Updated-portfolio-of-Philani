@@ -1,5 +1,43 @@
 <template>
-  <div
+
+  <section class="contaiiner min-vh-100 my-5 p-5">
+    <div class="lists p-5">
+   <div class="work_experience">
+     <h2 class="experiencies">Experiences</h2>
+     <ol class="work">
+       <li class="we_item">
+         <span class="carrec"><span class="li2019"> 2018</span> PAY Intern HR </span><span class="empresa">CRU</span><p lang="la">Department of Cultural Affairs and Sport</p></li>
+       
+       <li class="we_item">
+         <span class="carrec"><span class="li2018">2019</span><abbr title="User experience"></abbr>Tradeway</span> <span class="empresa"></span><p lang="la">Marketiing and Sales</p></li>
+       
+       <li class="we_item">
+         <span class="carrec"><span class="li2016"> 2020 </span><abbr title="User Interface"></abbr>British Airways</span><p lang="la">Promoter</p></li>
+       
+       <li class="we_item">
+         <span class="carrec"><span class="li2014"> 2023</span>RPA Developer Intern</span> <span class="empresa">Innovation Lab</span><p lang="la">University of the Western Cape</p></li>
+       </ol>
+       </div>
+<div class="education">
+     <h2 class="education-title">Education</h2>
+     <ol class="educa">
+       <li class="education_item">
+         <span class="carrec"><span class="li2017"> 2017 </span>Matric</span> <span class="empresa">Sinako High School</span>
+         <p>NSC (WCDE)</p>
+</li>
+       <li class="education_item">
+         <span class="carrec"><span class="li2015"> 2022 </span>Lifechoices </span> <span class="empresa">Coding Academy</span>
+         <p>Fullstack Development</p>
+</li>
+     <li class="education_item">
+       <span class="carrec"><span class="li2013"> 2023 </span>BLIS</span> <span class="empresa">University of the Western Cape</span>
+<p>Bachelor of Library and Information Science</p>
+       </li>
+</ol>
+
+        </div></div>
+      </section>
+  <!-- <div
     id="education"
     class="container text-start my-5 p-4 h-100 justify-content-between"
   >
@@ -90,7 +128,7 @@
       </div>
     </div>
     <hr />
-  </div>
+  </div> -->
 </template>
 
 <script>
@@ -112,7 +150,47 @@ AOS.init({
   font-family: Raleway, sans-serif;
 }
 
-.row {
+.lists{ 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin:0 auto;
+}
+
+.experiencies, .education-title { /* titlos de la llista index experiencia i education */
+  text-align: left;
+  font-size: 38px;
+  padding-top: 20px;
+}
+
+.carrec { /* color carrec llista */
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*------BOLES I NUMEROS DE LA LLISTA-------*/
+
+.lists li {
+  list-style: none;
+  padding-bottom: 30px;
+}
+
+.education_item, .we_item {
+  border-left: 2px solid black;
+  position: relative;
+  padding-left: 40px;
+}
+
+.work_experience li::before, .education li::before {
+  position: absolute;
+  left: -26px;
+  top: -15px;
+  content: "";
+  border-radius: 500%;
+  background: #cacae7;
+  height: 50px;
+  width: 50px;
+}
+/*.row {
   color: #898989;
   font-family: "Poppins", helvetica;
   font-size: 15px;
@@ -140,5 +218,5 @@ img {
   text-align: center;
   color: #4e4c48;
   font-size: 1.1em;
-}
+}*/
 </style>

@@ -182,6 +182,7 @@ figure:hover img {
 }
 
 figcaption {
+  background-color: #222;
   color: #fff;
   padding: 1.5em;
   -webkit-transform: rotateX(-90deg);

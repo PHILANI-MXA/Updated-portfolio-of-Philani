@@ -36,23 +36,9 @@
               >
             </li>
             <li class="nav-item">
-              <router-link
-                class="text-decoration-none text-black"
-                to="/experience"
-                >Experience
-              </router-link>
-            </li>
-            <li class="nav-item">
               <router-link class="text-decoration-none text-black" to="/skills"
                 >Skills</router-link
               >
-            </li>
-            <li class="nav-item">
-              <router-link
-                class="text-decoration-none text-black"
-                to="/testimonials22"
-                >Testimonials
-              </router-link>
             </li>
             <li class="nav-item flex-end">
               <router-link
