@@ -5,18 +5,17 @@
       <div class="col-4"></div>
 
       <div class="col-md-8">
-        <form action="https://formspree.io/f/mbjnonry" method="post">
-          <!-- <form action="https://formspree.io/f/xpznrrpd" method="post"></form> -->
+          <form action="https://formspree.io/f/xpznrrpd" method="post"></form>
           <fieldset class="text-start">
             <legend class="text-start">
               <span class="number">1</span> Your Information
             </legend>
             <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name" />
+            <input type="text" id="name" name="user_name"/>
             <label for="name">Location:</label>
-            <input type="text" id="name" name="user_location" />
+            <input type="text" id="name" name="user_location"/>
             <label for="email">Email:</label>
-            <input type="email" id="mail" name="user_email" />
+            <input type="email" id="mail" name="user_email"/>
           </fieldset>
           <fieldset>
             <legend class="text-start">
