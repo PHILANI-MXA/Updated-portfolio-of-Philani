@@ -5,7 +5,8 @@
       <div class="col-4"></div>
 
       <div class="col-md-8">
-        <form action="https://formspree.io/f/xpznrrpd" method="post">
+        <form action="https://formspree.io/f/mbjnonry" method="post">
+          <!-- <form action="https://formspree.io/f/xpznrrpd" method="post"></form> -->
           <fieldset class="text-start">
             <legend class="text-start">
               <span class="number">1</span> Your Information
