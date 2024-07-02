@@ -1,7 +1,7 @@
 <template>
   <div class="container p-5 min-vh-100">
   <div class="text-container">
-    <p>Hi there!</p>
+    <p class="text-black">Hi there!</p>
     <h2>I am Philani </h2>
     <p>I'm a Software Developer <br>& Web Designer</p>
     <button class="hire-btn" id="about">
@@ -305,7 +305,7 @@
 // };
 </script>
 
-<style lang="scss">
+<style lang="scss" >
 
 *,
 *::after,
@@ -320,7 +320,9 @@ html
 }
 
 body{
-	background: linear-gradient(95deg,#cacae7,hsla(240, 0%, 47%, 0.773), hsla(240, 0%, 47%, 0.773), #cacae7);
+	/*background: linear-gradient(95deg,#cacae7,hsla(240, 0%, 47%, 0.773), hsla(240, 0%, 47%, 0.773), #cacae7);*/
+  background: linear-gradient(95deg,  #cacae7 0%,
+  #f6fff8 60%,  #f6fff8 50%,  #f6fff8 70%, #f6fff8 0%,#cacae7);;
 	background-size: cover;
 	background-repeat: repeat;
   margin: 0px;
@@ -345,9 +347,7 @@ body{
 	font-weight: 500;
 	color: #dfdfdf;
 	font-size: 22px;
-	
-	 
-}
+
 .text-container h2
 {
 	font-weight: 700;
@@ -424,7 +424,7 @@ button:active{
 @keyframes fade-in{
 	from{opacity: 0; transform: scale(0) translateX(200%);}
 }
-
+}
 </style>
 
 <style scoped lang="scss">
