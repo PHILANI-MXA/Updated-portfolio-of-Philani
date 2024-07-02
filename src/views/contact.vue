@@ -26,7 +26,8 @@
             <textarea id="msg" name="user_msg"></textarea>
           </fieldset>
           <button type="submit" class="my-5">send</button>
-        </form>
+        
+        
       </div>
       <hr />
       <div class="col-2"></div>

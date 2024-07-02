@@ -51,7 +51,13 @@ const routes = [
     path: '/single',
     name: 'single',
     component: () => import(/* webpackChunkName: "testimonials" */ '../views/SingleView.vue')
+  },
+  {
+    path: '/Maintananceroute',
+    name: 'Maintananceroute',
+    component: () => import(/* webpackChunkName: "Maintananceroute" */ '../views/Maintananceroute.vue')
   }
+
 ]
 
 const router = createRouter({

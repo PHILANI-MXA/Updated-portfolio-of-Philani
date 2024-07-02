@@ -31,19 +31,19 @@
             <li class="nav-item">
               <router-link
                 class="text-decoration-none text-black"
-                to="/education"
+                to="/Maintananceroute"
                 >Education</router-link
               >
             </li>
             <li class="nav-item">
-              <router-link class="text-decoration-none text-black" to="/skills"
+              <router-link class="text-decoration-none text-black" to="/Maintananceroute"
                 >Skills</router-link
               >
             </li>
             <li class="nav-item flex-end">
               <router-link
                 class="text-decoration-none text-black invisible"
-                to="/projects"
+                to="/Maintananceroutes"
                 >Projects</router-link
               >
             </li>

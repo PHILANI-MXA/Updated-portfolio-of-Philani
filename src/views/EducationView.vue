@@ -1,6 +1,6 @@
 <template>
 
-  <section class="contaiiner min-vh-100 my-5 p-5">
+  <section class="container min-vh-100 my-5 p-5">
     <div class="lists p-5">
    <div class="work_experience">
      <h2 class="experiencies">Experiences</h2>
