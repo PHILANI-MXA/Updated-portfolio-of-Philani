@@ -1,7 +1,7 @@
 <template>
   <div class="container p-5 min-vh-100">
   <div class="text-container">
-    <p class="text-black">Hi there!</p>
+    <p>Hi there!</p>
     <h2>I am Philani </h2>
     <p>I'm a Software Developer <br>& Web Designer</p>
     <button class="hire-btn" id="about">
@@ -345,7 +345,7 @@ body{
 }
 .text-container p:nth-child(1){
 	font-weight: 500;
-	color: #dfdfdf;
+	color: black;
 	font-size: 22px;
 
 .text-container h2

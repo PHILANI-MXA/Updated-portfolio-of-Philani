@@ -1,11 +1,11 @@
 <template>
   <div
     id="about"
-    class="p-5 my-5 container text-start min-vh-100 justify-content-between"
+    class="p-5 my-5 container text-start h-100 justify-content-between"
   >
-    <h2 class="text-center fw-bolder p-3">About</h2>
+    <h2 class="text-center fw-bolder p-3"></h2>
     <div class="row p-3" data-aos="fade-right">
-      <div class="col-md-4">
+      <div class="col-md-5 p-2">
         <div class="">
           <div class="avatar">
             <div>
@@ -18,7 +18,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 details" data-aos="flip-right">
+      <!-- <div class="col-md-4 details" data-aos="flip-right">
         <div class="row text-black details">
           <p class="col-4 details">DOB</p>
           <p class="col-1">:</p>
@@ -71,38 +71,24 @@
         </button>
 
         <div></div>
-      </div>
+      </div> -->
       <div
-        class="col-md-4 myself"
+        class="col-md-6 myself con"
         data-aos="zoom-in-up"
         data-aos-easing="ease-in"
       >
-        <h4 class="text-black text-center"><small> Get to know me </small></h4>
+        <h2 class="fw-bold m-auto text-black d-flex justify-content-center align-items-center shadow-sm text-justify">ABOUT ME</h2>
         <div class="row myself">
-          <h6
-            class="text-center text-black myself"
-            data-aos="zoom-in-up"
-            data-aos-delay="500"
-          >
-            Bio
-          </h6>
-          <p class="text-black myself">
-            As a dynamic and adaptable young adult with a strong technical skill set, 
-            I bring a versatile ability to navigate through various tasks in the software development cycle. 
-            Currently working as an RPA (Robotic Process Automation) developer intern at the Samsung Future 
-            Innovation Lab within the University of the Western Cape, I am passionate about connecting revolutionary technologies to drive innovation. 
-            I am committed to continuous growth and willingly embracing the opportunity 
-            to acquire new skills that contribute to my professional development.
+          <p class="text-black myself std">
+            I am a highly skilled and motivated individual with a strong foundation in computer literacy, programming languages, databases,
+            and low-code/no-code platforms. I have a proven ability to design user interfaces, manage projects, and communicate effectively with teams.
+            As an asiring RPA developer with a strong background in full-stack development, I possess a diverse skill set across multiple programming
+            languages including HTML, CSS, Bootstrap, Python, and JavaScript (along with various JavaScript frameworks).
+            I enjoy tackling challenges by leveraging both low-code and traditional coding approaches.
+            A quick learner with a passion for continuous improvement, I am eager to contribute to a dynamic team environment.
           </p>
-
-          <p class="text-black myself" data-aos="zoom-in-up">
-            I have managed to learn and experienced a lot because of my
-            curiosity to know. I have problem solving skills and technical
-            ability to create a logic and reasoning behind anything that needs
-            to be solved.
-          </p>
-
-         
+          <div class="row m-auto">
+            <div class="col"><button class="btn">Auto Anywhere</button> <button class="btn">Ui Path</button> <button class="btn"> Power Platforms</button> <button class="btn"> MSSQL</button> <button class="btn">SharePoint</button> <button class="btn">JavaScript</button></div></div>
         </div>
       </div>
     </div>
@@ -158,6 +144,7 @@ AOS.init({
 img {
   border-radius: 10px;
   box-shadow: solid grey;
+  height: 400px;
 }
 
 .text-container button{
@@ -193,5 +180,53 @@ button:active{
 @keyframes fade-in{
 	from{opacity: 0; transform: scale(0) translateX(200%);}
 }
+
+.con{
+  background: linear-gradient(95deg,#dce1e6,hsla(209, 23%, 72%, 0.773), hsla(211, 23%, 79%, 0.305), #cacae7);
+  height: 40%;
+  width: 600px;
+  position: center;
+  margin: auto;
+}
+
+.std{
+  align-content: center;
+  text-align: justify;
+  align-content: space-around;
+}
+
+h2 {
+  font-size: 2.2em !important;
+  margin-top: 40px;
+  text-align: center;
+  color: #0A342B;
+  font-weight: 500 !important;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px blue;
+}
+
+.btn {
+  border: 2px solid #2e6bcc;
+  width: 11em;
+  height: 2.4em;
+  font-family: Oxygen, sans-serif;
+  font-size: 16px;
+  box-shadow: 0px 0px 15px 3px rgba(15, 15, 15, 0.3);
+  color: #fff;
+  background-color: #2c3e50;
+  border-radius: 4px;
+  transition-property: border, background-color;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+  margin: auto;
+}
+
+.btn:hover {
+  border-width: 4px;
+  background-color: transparent;
+}
+
+
+
 
 </style>

@@ -1,7 +1,7 @@
 <template>
-  <div id="contact" class="container min-h-100 py-4 my-5">
-    <h2 class="text-center  my-5 p-3 fw-bolder">Contact</h2>
-    <div class="row">
+  <div id="contact" class="container min-h-100 py-4 my-5 p-4">
+    
+    <div class="row p-4 m-2">
       <div class="col-4"></div>
 
       <div class="col-md-8">
@@ -21,11 +21,10 @@
             <legend class="text-start">
               <span class="number">2</span>Message
             </legend>
-
             <label for="msg"></label>
             <textarea id="msg" name="user_msg"></textarea>
           </fieldset>
-          <button type="submit" class="my-5">send</button>
+          <button type="submit" class="my-2 text-black">send</button>
         </form>
       </div>
       <hr />
