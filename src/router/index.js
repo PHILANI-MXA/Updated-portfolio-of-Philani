@@ -45,12 +45,12 @@ const routes = [
   {
     path: '/projects',
     name: 'projects',
-    component: () => import(/* webpackChunkName: "testimonials" */ '../views/projects.vue')
+    component: () => import(/* webpackChunkName: "projects" */ '../views/projects.vue')
   },
   {
     path: '/single',
     name: 'single',
-    component: () => import(/* webpackChunkName: "testimonials" */ '../views/SingleView.vue')
+    component: () => import(/* webpackChunkName: "Single" */ '../views/SingleView.vue')
   },
   {
     path: '/Maintananceroute',

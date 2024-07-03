@@ -31,7 +31,7 @@
             <li class="nav-item">
               <router-link
                 class="text-decoration-none text-black"
-                to="/Maintananceroute"
+                to="/about"
                 >Education</router-link
               >
             </li>
