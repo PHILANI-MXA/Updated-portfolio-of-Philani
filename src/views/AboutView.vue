@@ -18,60 +18,6 @@
           </div>
         </div>
       </div>
-      <!-- <div class="col-md-4 details" data-aos="flip-right">
-        <div class="row text-black details">
-          <p class="col-4 details">DOB</p>
-          <p class="col-1">:</p>
-          <p class="col-2 details">19990429</p>
-        </div>
-        <div class="row text-black details">
-          <p class="col-4 details">Cell no</p>
-          <p class="col-1">:</p>
-          <p class="col-2 details">0646778134</p>
-        </div>
-        <div class="row text-black details">
-          <p class="col-4 details">Age</p>
-          <p class="col-1">:</p>
-          <p class="col-2 details">25</p>
-        </div>
-        <div class="row text-black details">
-          <p class="col-4 details">Gender</p>
-          <p class="col-1">:</p>
-          <p class="col-2 details">Male</p>
-        </div>
-        <div class="row text-black details">
-          <p class="col-4 details">Drivers License</p>
-          <p class="col-1">:</p>
-          <p class="col-2 details">Code B, C1</p>
-        </div>
-        <div class="row text-black details">
-          <p class="col-4 details">Health Status</p>
-          <p class="col-1">:</p>
-          <p class="col-2 details">Excellent</p>
-        </div>
-        <div class="row text-black details">
-          <p class="col-4 details">status of employment</p>
-          <p class="col-1">:</p>
-          <p class="col-2 details">RPA dev Intern</p>
-        </div>
-        <div class="row text-black">
-          <p class="col-4 details">Criminal Record</p>
-          <p class="col-1">:</p>
-          <p class="col-2 details">Clear</p>
-        </div>
-        <div class="row text-black details">
-          <p class="col-4 details">Religion></p>
-          <p class="col-1">:</p>
-          <p class="col-2 details">Christianity</p>
-        </div>
-        <button class="mx-5 px-3 hire-btn">
-          <a href="./public/documents/CV of Philani Mxathule recent.pdf"
-            download="./public/documents/CV of Philani Mxathule recent.pdf"
-           >Resume</a>
-        </button>
-
-        <div></div>
-      </div> -->
       <div
         class="col-md-6 myself con"
         data-aos="zoom-in-up"
