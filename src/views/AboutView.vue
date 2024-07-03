@@ -88,7 +88,7 @@
             A quick learner with a passion for continuous improvement, I am eager to contribute to a dynamic team environment.
           </p>
           <div class="row m-auto">
-            <div class="col"><button class="btn">Auto Anywhere</button> <button class="btn">Ui Path</button> <button class="btn"> Power Platforms</button> <button class="btn"> MSSQL</button> <button class="btn">SharePoint</button> <button class="btn">JavaScript</button></div></div>
+            <div class="col"><button class="btn">Auto Anywhere</button> <button class="btn">UiPath</button> <button class="btn"> Power Platforms</button> <button class="btn"> MSSQL</button> <button class="btn">SharePoint</button> <button class="btn">JavaScript</button></div></div>
         </div>
       </div>
     </div>
@@ -109,21 +109,13 @@ AOS.init({
 </script>
 
 <style scoped>
+@import url('http://fonts.googleapis.com');
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
 * {
   font-family: Raleway, sans-serif;
 }
 @import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Gemunu+Libre:wght@300;400;800&family=Shadows+Into+Light&display=swap");
 
-/* .myself {
-    font-family: 'Shadows Into Light', cursive;
-    font-weight: bold;
-}
-
-.details {
-    font-family: Raleway, sans-serif;
-    font-weight: bold;
-} */
 
 .row {
   color: #898989;
@@ -193,6 +185,8 @@ button:active{
   align-content: center;
   text-align: justify;
   align-content: space-around;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2em !important;
 }
 
 h2 {
