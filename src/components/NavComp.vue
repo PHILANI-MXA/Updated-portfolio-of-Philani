@@ -24,7 +24,7 @@
               >
             </li>
             <li class="nav-item text-decoration-none">
-              <router-link class="text-decoration-none text-black" to="/Maintananceroute"
+              <router-link class="text-decoration-none text-black" to="/about"
                 >About</router-link
               >
             </li>

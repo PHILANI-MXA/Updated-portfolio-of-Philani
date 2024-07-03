@@ -166,7 +166,4 @@ h2 {
   background-color: transparent;
 }
 
-
-
-
 </style>
