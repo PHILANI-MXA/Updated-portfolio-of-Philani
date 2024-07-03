@@ -12,10 +12,6 @@
     >
     </button>
     <p class="text-black fw-bolder my-4 mtext">RPA developer intern specialization: Power Platforms</p>
-    <ul class="list-unstyled mtext"><li>PowerApps</li>
-    <li>Power Automate</li>
-    <li>PowerBI</li>
-    <li>SharePoint</li></ul>
     </div>
   </div>
 
