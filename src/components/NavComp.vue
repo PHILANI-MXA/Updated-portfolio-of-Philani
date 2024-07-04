@@ -42,8 +42,8 @@
             </li>
             <li class="nav-item flex-end">
               <router-link
-                class="text-decoration-none text-black invisible"
-                to="/Maintananceroutes"
+                class="text-decoration-none text-black"
+                to="/Maintananceroute"
                 >Projects</router-link
               >
             </li>

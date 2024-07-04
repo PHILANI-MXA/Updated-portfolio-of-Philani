@@ -26,11 +26,11 @@
         <h2 class="fw-bold m-auto text-black d-flex justify-content-center align-items-center shadow-sm text-justify">ABOUT ME</h2>
         <div class="row myself">
           <p class="text-black myself std">
-            I am a highly skilled and motivated individual with a strong foundation in computer literacy, programming languages, databases,
-            and low-code/no-code platforms. I have a proven ability to design user interfaces, manage projects, and communicate effectively with teams.
-            As an aspiring RPA developer with a strong background in full-stack development, I possess a diverse skill set across multiple programming
-            languages including HTML, CSS, Bootstrap, Python, and JavaScript (along with various JavaScript frameworks).
-            I enjoy tackling challenges by leveraging both low-code and traditional coding approaches.
+            I am a multi skilled and dedicated individual with a strong foundation in computer literacy, programming languages,
+            databases, and low-code/no-code platforms. I have a proven ability to design user interface applications, manage projects,
+            and communicate effectively with teammates. As an aspiring RPA developer with a strong background in full-stack development,
+            I possess a diverse skill set across multiple programming languages including HTML5, CSS3, Bootstrap5, Python,
+            and JavaScript (along with various JavaScript frameworks). I enjoy tackling challenges by leveraging both low-code and traditional coding approaches.
             A quick learner with a passion for continuous improvement, I am eager to contribute to a dynamic team environment.
           </p>
           <div class="row m-auto">
