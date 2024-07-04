@@ -3,7 +3,7 @@
     id="skills"
     class="container text-start min-vh-100 my-5 p-5 justify-content-between overflow-auto"
   >
-    <h2 class="text-center bg-black my-2 p-3 fw-bolder">Skills</h2>
+  <hr />
     <div class="row p-4">
       <div class="col-md-5">
         <div class="">
@@ -14,7 +14,7 @@
             data-aos-offset="500"
             data-aos-duration="500"
           >
-            <h4>Achievements</h4>
+            <h4 class="text-start">Achievements</h4>
             <ol>
               <li>Microsoft office 365 certificate</li>
               <li>Self-discipline certficate</li>
@@ -39,7 +39,7 @@
       </div>
       <div class="col-md-3">
         <div class="text-black" data-aos="zoom-out-down">
-          <h4>Soft Skills</h4>
+          <h4 class="text-start">Soft Skills</h4>
           <ul>
             <li>Communication skills</li>
             <li>Innovative and creative thinker</li>
@@ -58,7 +58,7 @@
       </div>
       <div class="col-md-4" data-aos="zoom-out-down">
         <div>
-          <h4 class="text-center text-black">Technical Skills</h4>
+          <h4 class="text-start text-black">Technical Skills</h4>
           <div class="row my-2">
             <div class="col-md-6">
               <ul class="list-unstyled text-black">
@@ -222,13 +222,13 @@
         </div>
       </div>
       
-      <div class="text-center">
+      <!-- <div class="text-center">
         <router-link to="/projects">
           <div class="backbutton">
             <button>Projects and Certificates</button>
           </div></router-link
         >
-      </div>
+      </div> -->
     </div>
     <hr />
   </div>

@@ -36,7 +36,7 @@
               >
             </li>
             <li class="nav-item">
-              <router-link class="text-decoration-none text-black" to="/Maintananceroute"
+              <router-link class="text-decoration-none text-black" to="/skills"
                 >Skills</router-link
               >
             </li>
