@@ -1,7 +1,7 @@
 <template>
   <div
     id="about"
-    class="p-5 my-5 container text-start min-vh-100 justify-content-between"
+    class="p-5 my-5 container text-start h-100 justify-content-between"
   >
     <h2 class="text-center fw-bolder p-3"></h2>
     <div class="row p-3" data-aos="fade-right">
@@ -55,7 +55,6 @@ AOS.init({
 </script>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
 * {
   font-family: Raleway, sans-serif;
 }
@@ -130,7 +129,7 @@ button:active{
   align-content: center;
   text-align: justify;
   align-content: space-around;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT';
   font-size: 1.2em !important;
 }
 

@@ -1,6 +1,4 @@
 <template>
- 
-
   <div class="container p-5 min-vh-100">
   <div class="text-container">
     <h4>Hi there!</h4>
@@ -14,7 +12,6 @@
     <p class="text-black fw-bolder my-4 mtext">RPA developer intern specialization: Power Platforms</p>
     </div>
   </div>
-
 </template>
 
 
