@@ -25,7 +25,7 @@
       >
         <h2 class="fw-bold m-auto text-black d-flex justify-content-center align-items-center shadow-sm text-justify">ABOUT ME</h2>
         <div class="row myself">
-          <p class="text-black myself std">
+          <p class="text-black myself std soft">
             I am a multi skilled and dedicated individual with a strong foundation in computer literacy, programming languages,
             databases, and low-code/no-code platforms. I have a proven ability to design user interface applications, manage projects,
             and communicate effectively with teammates. As an aspiring RPA developer with a strong background in full-stack development,
@@ -126,11 +126,15 @@ button:active{
 }
 
 .std{
+  padding: 5px;
+  font-size: 1.2em !important;
   align-content: center;
   text-align: justify;
   align-content: space-around;
   font-family: 'Gill Sans', 'Gill Sans MT';
-  font-size: 1.2em !important;
+  color: #000;
+  font-weight: 500 !important;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px #000;
 }
 
 h2 {
@@ -163,5 +167,4 @@ h2 {
   border-width: 4px;
   background-color: transparent;
 }
-
 </style>

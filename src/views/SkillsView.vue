@@ -8,13 +8,13 @@
       <div class="col-md-5">
         <div class="">
           <div
-            class="text-black"
+            class="text-black soft"
             data-aos="fade-right"
             data-aos-anchor="#example-anchor"
             data-aos-offset="500"
             data-aos-duration="500"
           >
-            <h4 class="text-start">Achievements</h4>
+            <h4 class="text-start ">Achievements</h4>
             <ol>
               <li>Microsoft office 365 certificate</li>
               <li>Self-discipline certficate</li>
@@ -38,8 +38,8 @@
         </div>
       </div>
       <div class="col-md-3">
-        <div class="text-black" data-aos="zoom-out-down">
-          <h4 class="text-start">Soft Skills</h4>
+        <div class="text-black soft" data-aos="zoom-out-down">
+          <h4 class="text-start ">Soft Skills</h4>
           <ul>
             <li>Communication skills</li>
             <li>Innovative and creative thinker</li>
@@ -56,10 +56,10 @@
           </ul>
         </div>
       </div>
-      <div class="col-md-4" data-aos="zoom-out-down">
+      <div class="col-md-4 " data-aos="zoom-out-down">
         <div>
-          <h4 class="text-start text-black">Technical Skills</h4>
-          <div class="row my-2">
+          <h4 class="text-start text-black ">Technical Skills</h4>
+          <div class="row my-2 soft">
             <div class="col-md-6">
               <ul class="list-unstyled text-black">
                 <li>
@@ -275,5 +275,14 @@ img {
 
 .progress {
   height: 10px;
+}
+
+.soft{
+  font-size: 1em !important;
+  margin-top: 40px;
+  text-align: start;
+  color: #000;
+  font-weight: 500 !important;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px #000;
 }
 </style>
