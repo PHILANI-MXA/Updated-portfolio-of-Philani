@@ -1,10 +1,10 @@
 <template>
   <div
     id="skills"
-    class="container text-start min-vh-100 my-5 p-5 justify-content-between overflow-auto"
+    class="container text-start min-vh-100 my-5 p-5 justify-content-between overflow-auto "
   >
-  <hr />
-    <div class="row p-4">
+  <hr/>
+    <div class="row p-4 shadow-sm">
       <div class="col-md-5">
         <div class="">
           <div
@@ -17,11 +17,9 @@
             <h4 class="text-start ">Achievements</h4>
             <ol>
               <li>Microsoft office 365 certificate</li>
-              <li>Self-discipline certficate</li>
-              <li>Rotary Youth Leadership Award certificate</li>
+              <li>Self-discipline certficate RDT</li>
+              <li>Rotary Youth Leadership Award certificate RYLA</li>
               <li>Project Management certificate</li>
-              <li>Personnel Salary System Introduction certificate</li>
-              <li>Personnel Salary System administration certificate</li>
               <li>Coding for marketers certificate</li>
               <li>Responsive web design certificate</li>
               <li>React + Redux certificate</li>
@@ -124,14 +122,14 @@
                 </li>
                 <li>
                   <p class="d-flex justify-content-between my-0">
-                    React <span>20%</span>
+                    React <span>50%</span>
                   </p>
                   <div class="progress">
                     <div
                       class="progress-bar bg-black"
                       role="progressbar"
-                      style="width: 20%"
-                      aria-valuenow="20"
+                      style="width: 50%"
+                      aria-valuenow="50"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
@@ -158,14 +156,14 @@
                 </li>
                 <li>
                   <p class="d-flex justify-content-between my-0">
-                    Java<span>35%%</span>
+                    Java<span>50%%</span>
                   </p>
                   <div class="progress">
                     <div
                       class="progress-bar bg-black"
                       role="progressbar"
-                      style="width: 35%"
-                      aria-valuenow="35"
+                    style="width: 50%"
+                      aria-valuenow="50"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
@@ -188,14 +186,14 @@
                 </li>
                 <li>
                   <p class="d-flex justify-content-between my-0">
-                    NodeJs<span>60%</span>
+                    NodeJs<span>80%</span>
                   </p>
                   <div class="progress">
                     <div
                       class="progress-bar bg-black"
                       role="progressbar"
-                      style="width: 60%"
-                      aria-valuenow="60"
+                      style="width: 80%"
+                      aria-valuenow="80"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
@@ -203,14 +201,14 @@
                 </li>
                 <li>
                   <p class="d-flex justify-content-between my-0">
-                    Python<span>40%</span>
+                    Python<span>70%</span>
                   </p>
                   <div class="progress">
                     <div
                       class="progress-bar bg-black"
                       role="progressbar"
-                      style="width: 40%"
-                      aria-valuenow="40"
+                      style="width: 70%"
+                      aria-valuenow="70"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
@@ -278,11 +276,13 @@ img {
 }
 
 .soft{
-  font-size: 1em !important;
-  margin-top: 40px;
-  text-align: start;
-  color: #000;
+  padding: 5px;
+  font-size: 1.2em !important;
+  align-content: center;
+  align-content: space-around;
+  font-family: 'Gill Sans', 'Gill Sans MT';
+  color: #000 black;
   font-weight: 500 !important;
-  text-shadow: 1px 1px 1px #000, 3px 3px 5px #000;
+  font-weight: bold;
 }
 </style>

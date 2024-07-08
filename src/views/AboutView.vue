@@ -1,7 +1,7 @@
 <template>
   <div
     id="about"
-    class="p-5 my-5 container text-start h-100 justify-content-between"
+    class="p-5 my-5 container text-start h-100 justify-content-between shadow-sm"
   >
     <h2 class="text-center fw-bolder p-3"></h2>
     <div class="row p-3" data-aos="fade-right">
@@ -126,15 +126,13 @@ button:active{
 }
 
 .std{
-  padding: 5px;
-  font-size: 1.2em !important;
-  align-content: center;
+ padding: 5px;
+  font-size: 1.5em !important;
   text-align: justify;
+  align-content: center;
   align-content: space-around;
   font-family: 'Gill Sans', 'Gill Sans MT';
-  color: #000;
   font-weight: 500 !important;
-  text-shadow: 1px 1px 1px #000, 3px 3px 5px #000;
 }
 
 h2 {
