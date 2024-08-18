@@ -6,7 +6,7 @@
   <hr/>
     <div class="row p-4 shadow-sm">
       <div class="col-md-5">
-        <div class="">
+        <div class="soft">
           <div
             class="text-black soft"
             data-aos="fade-right"
@@ -54,7 +54,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-md-4 " data-aos="zoom-out-down">
+      <div class="col-md-4" data-aos="zoom-out-down">
         <div>
           <h4 class="text-start text-black ">Technical Skills</h4>
           <div class="row my-2 soft">
@@ -252,11 +252,6 @@ AOS.init({
 }
 .row {
   color: #898989;
-  font-family: "Poppins", helvetica;
-  font-size: 15px;
-  font-weight: 300;
-  line-height: 20px;
-  letter-spacing: 0.02em;
   margin: 0 auto;
   padding: 0;
   -moz-box-sizing: border-box;
@@ -266,23 +261,18 @@ AOS.init({
   box-sizing: border-box;
 }
 
-img {
-  border-radius: 10px;
-  box-shadow: solid grey;
-}
-
 .progress {
   height: 10px;
 }
 
 .soft{
   padding: 5px;
-  font-size: 1.2em !important;
+  text-align: justify;
+  font-size: 1.em !important;
   align-content: center;
   align-content: space-around;
   font-family: 'Gill Sans', 'Gill Sans MT';
   color: #000 black;
   font-weight: 500 !important;
-  font-weight: bold;
 }
 </style>

@@ -74,7 +74,7 @@
               <span class="empresa text-start ft">Student Assistant</span>
               <div class="fs">
               <ul class="fs">
-                <li>Helping students with microsoft office fundamentals in knowledge commons, helping students to convert documents from word to pdf etc.</li>
+                <li>Helping students with microsoft office 365 fundamentals in knowledge commons, helping students to convert documents from word to pdf etc.</li>
                 <li>Helping students understand the MARC classification system to retrieve books that they are looking for.</li>
                 <li>Helping students with their research and with the compilation of bibliographic records also with referencing using the shortcuts on the library website.</li>
                 <li>Assist staff in trouble shooting errors on library systems (Omega, and the library serve maintanance).</li>
@@ -103,7 +103,7 @@
                 <li>Extensive knowledge in Power Platforms technologies such as: Power Automate, SharePoint and PowerBI</li>
                 <li>Built CRUD application with PowerPlatforms fully functional, from PowerApps to PowerBI</li>
                 <li>The App tracks Business Expenses</li>
-                <li>SharePoint keeps data, PowerBI analyze and visualize data</li>
+                <li>SharePoint to store data, PowerBI analyze and visualize data</li>
                 <li>The app has flows that automate a routine for manager approval of the expense requested by the employee.
                   The app also has a flow that archives old expenses from the SharePoint List. It also has a flow for re-submitting the rejected expenses</li>
                   <li>The app has got reusable components in PowerApps</li>

@@ -26,7 +26,7 @@
         <h2 class="fw-bold m-auto text-black d-flex justify-content-center align-items-center shadow-sm text-justify">ABOUT ME</h2>
         <div class="row myself">
           <p class="text-black myself std soft">
-            I am a multi skilled and dedicated individual with a strong foundation in computer literacy, programming languages,
+            I am a multi skilled and dedicated individual with a strong foundation in coding || programming languages,
             databases, and low-code/no-code platforms. I have a proven ability to design user interface applications, manage projects,
             and communicate effectively with teammates. As an aspiring RPA developer with a strong background in full-stack development,
             I possess a diverse skill set across multiple programming languages including HTML5, CSS3, Bootstrap5, Python,
@@ -126,12 +126,13 @@ button:active{
 }
 
 .std{
- padding: 5px;
-  font-size: 1.5em !important;
+  padding: 5px;
   text-align: justify;
+  font-size: 1.em !important;
   align-content: center;
   align-content: space-around;
   font-family: 'Gill Sans', 'Gill Sans MT';
+  color: #000 black;
   font-weight: 500 !important;
 }
 
