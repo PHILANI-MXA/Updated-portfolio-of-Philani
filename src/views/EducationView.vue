@@ -15,7 +15,6 @@
                   industry as I am passionate in the field since I am always open to grow and learn new skills now and then.
         </p></div><span class="view fs"><a href="http://">view</a></span></p>
               </span>
-              
             </li>
             <li class="we_item shadow-sm ft" data-aos="fade-up" data-aos-duration="3000">
               <span class="carrec ft"><span class="li2018">[LC] </span><abbr title="User experience"></abbr> Lifechoices Coding Academy</span>
@@ -33,10 +32,10 @@
                 Since I am very passionate in the software development industry I have taken a step forward to self-taught myself some programming languages
                 before I start at lifechoices then I learned some other modules while I was at lifechoices.
                 I have learned several coding languages such as Java, C#, Coding for Marketers and many more programming languages
-                </p></div><span class="ft m-auto"><a href="http://">view</a></span></p>             
+                </p></div><span class="ft m-auto"><a href="http://">view</a></span></p>
             </li>
             <li class="we_item shadow-sm ft" data-aos="fade-up" data-aos-duration="3000">
-              <span class="carrec ft"><span class="li2016">UWC</span><abbr title="User Interface"></abbr> CoLab RPA Learnership </span>
+              <span class="carrec ft"><span class="li2016">UWC/iOCO Digital</span><abbr title="User Interface"></abbr> CoLab RPA Learnership </span>
               <p lang="la" class="ft">Robotic Process Automation course <br><div class="fs"><p class="fs text-start">
                 I completed an intensive full 10 months course in RPA, gaining expertise in automating business processes using UiPath, Automation Anywhere
                 and Power Platforms. I have gained skills in workflow design using UiPath for Desktop flows, Power Automate and Automation Anywhere. I have also 
@@ -87,7 +86,7 @@
             </div>
             </li>
             <li class="education_item px-5 shadow-sm ft" data-aos="flip-right">
-              <span class="carrec ft"><span class="li2017"> UWC </span>WC CoLab Sep 2023 - June 2024</span><br>
+              <span class="carrec ft"><span class="li2017"> UWC/iOCO Digital </span>WC CoLab Sep 2023 - June 2024</span><br>
               <span class="empresa ft">RPA developer intern</span>
               <div class="fs">
               <ul class="fs">

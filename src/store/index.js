@@ -4,85 +4,100 @@ export default createStore({
   state: {
     certificates: [
       {
-        img: "https://i.postimg.cc/Cx15T72P/9a8ea701-ea31-4832-8a4c-97b5bc9c46b9.png",
+        img: "https://i.postimg.cc/MpDWSSnv/Philani-HTML.png",
         Name: "HTML",
         Description: "Certificate",
       },
       {
-        img: "https://i.postimg.cc/JncMBHgH/401fa74f-f1b7-42c6-ac09-12ed791dcbe5.png",
+        img: "https://i.postimg.cc/g02GcTh4/Philani-CSS.png",
         Name: "CSS",
         Description: "Certificate",
       },
       {
-        img: "https://i.postimg.cc/cH15XKCn/7f7ba994-5867-439c-ac7f-3e39773da869.png",
+        img: "https://i.postimg.cc/P5tjKRSh/Philani-Java-Script.png",
         Name: "JavaScript",
         Description: "Certificate",
       },
       {
-        img: "https://i.postimg.cc/Pq3MfC3T/5eef56d9-668f-4581-825c-038e908ec6a7.png",
+        img: "https://i.postimg.cc/4xK5CJL1/Philani-WDF.png",
         Name: "Fundamentals",
         Description: "Certificate",
       },
       {
-        img: "https://i.postimg.cc/5NgQWZkM/2266cb30-7259-4ace-9076-6c51e436a0d8.png",
+        img: "https://i.postimg.cc/gkLdnhnF/Phil-Responsive-Web-Design.png",
         Name: "Responsivedone",
         Description: "Certificate",
       },
       {
-        img: "https://i.postimg.cc/qRJWS6tr/cbb27f10-1cec-4351-b2f7-777af8eacb80.png",
+        img: "https://i.postimg.cc/DZWFL4BX/Philani-Coding-for-Marketers.png",
         Name: "Marketing?",
         Description: "Certificate",
       },
       {
-        img: "https://i.postimg.cc/GhLJDPWd/958ec7bb-3c0f-481e-af48-595e4a8e8269.png",
+        img: "https://i.postimg.cc/7ZLR58BC/Philani-Redux-and-React.png",
         Name: "React?",
         Description: "Certificate",
       },
       {
-        img: "https://i.postimg.cc/26Ph3JsS/fd6353b5-76ae-48f9-846c-20887b2af527.png",
+        img: "https://i.postimg.cc/8zD195P2/Philani-C.png",
         Name: "C",
         Description: "Certificate",
       },
       {
-        img: "https://i.postimg.cc/VvXvhMyg/a021415d-3370-4e79-935b-0345abb787cf.png",
+        img: "https://i.postimg.cc/5yLVkdc9/Philani-SQL.png",
         Name: "SQL",
         Description: "Certificate",
       },
       {
-        img: "https://i.postimg.cc/YCTwjzXC/5e520b04-1b21-4634-8d28-2512922a6d09.png",
+        img: "https://i.postimg.cc/qqSN2dsk/Philani-Java.png",
         Name: "Java",
         Description: "Certificate",
       },
       {
-        img: "https://i.postimg.cc/d0SnJ5n5/56d62a62-6333-4e7c-a354-990fbd0485f9.png",
+        img: "https://i.postimg.cc/bJGDrJn6/Learning-Path-Certificate-P-Mxathule.png",
         Name: "Python Beginners",
         Description: "Certificate",
       },
       {
-        img: "https://i.postimg.cc/jdZfVLMX/b21dfa4d-2ec6-4e0a-889b-15562eb66146.png",
-        Name: "Py INtermmediate",
+        img: "https://i.postimg.cc/4xK5CJL1/Philani-WDF.png",
+        Name: "WebDevFundamentals",
         Description: "Certificate",
       },
       {
-        img: "https://i.postimg.cc/B66yg87V/f99bfdfd-9a59-439d-a285-b4605754c09a.png",
+        img: "https://i.postimg.cc/YSZTcnzv/Philani-Python-Core.png",
         Name: "core",
-        Description: "",
+        Description: "Cert",
       },
       {
-        img: "https://i.postimg.cc/Xq6P027T/c6d1bf29-3188-4ef6-874c-90995af259d5.png",
-        Name: "Data Science",
-        Description: "",
+        img: "https://i.postimg.cc/DwKZh65Y/Philani-Mxathule-Ui-Path-Certificate-EADUS.png",
+        Name: "UiPath",
+        Description: "Cert",
       },
       {
-        img: "https://i.postimg.cc/FzxTXN6L/39a41778-ca40-4e02-af47-445457681f02.png",
+        img: "https://i.postimg.cc/BQ39Qz9D/Philani-PDS.png",
         Name: "Data Structures",
         Description: "",
       },
       {
-        img: "https://i.postimg.cc/7h50hxTw/ecfb88b0-0394-470e-9de2-bdc00f6b1eb3.png",
-        Name: "PHP",
-        Description: "",
+        img: "https://i.postimg.cc/XvdtbKHx/Philani-Mxathule-Core-Services.png",
+        Name: "Core-services",
+        Description: "AWS",
       },
+      {
+        img: "https://i.postimg.cc/J4FFHYSP/Philani-Mxathule-AWS-Cloud-Practitioner.png",
+        Name: "Cloud Pract",
+        Description: "AWS",
+      },
+      {
+        img: "https://i.postimg.cc/wj0drQrN/Philani-PHP.png",
+        Name: "PHP",
+        Description: "Cert",
+      },
+      {
+        img: "https://i.postimg.cc/BZXRg1Hh/Philani-Software-T-At-Ed.png",
+        Name: "AWS",
+        Description: "",
+      }
     ],
     projects: [
       {

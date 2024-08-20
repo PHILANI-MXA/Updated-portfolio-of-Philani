@@ -1,76 +1,76 @@
 <template>
   <div
     id="education"
-    class="container text-start my-5 p-4 h-100 justify-content-between"
+    class="container text-start my-5 p-4 h-100 justify-content-between overflow-auto"
   >
     <h2 class="text-center bg-black my-5 p-3 fw-bolder">Testimonials</h2>
-    <div class="row d-inline-flex">
-      <div class="col-md-6 item" data-aos="fade-right">
-        <figure>
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 item" data-aos="fade-right">
+        <figure class="my-5">
           <img
-            src="https://i.postimg.cc/kXryQrjr/Sibongile-2.jpg"
+            src="https://i.postimg.cc/1Xqq4J2C/joel2.jpg"
             alt="Portfolio Item"
           />
           <figcaption>
-            <h6>Sibongile</h6>
+            <h6>Joel</h6>
             <p>
-              Philani is open minded developer he takes his time whenever he
-              encounters a problem he is always cool, calm and collected.
+              I hope that Philani can meet your expectations, he is so humble
+              and goal orientated.
             </p>
           </figcaption>
         </figure>
       </div>
-      <div class="item col-md-6" data-aos="fade-right">
-        <figure>
+      <div class="col-lg-6 col-md-6 col-sm-12 item" data-aos="fade-right">
+        <figure class="my-5">
           <img
-            src="https://i.postimg.cc/Fz6JLctV/image-6487327.jpg"
+            src="https://i.postimg.cc/1Xqq4J2C/joel2.jpg"
             alt="Portfolio Item"
           />
           <figcaption>
-            <h6>Rasheedah</h6>
+            <h6>Joel</h6>
             <p>
-              Philani is very hardworking and possesses a keen attention to
-              detail. He is always ready and willing to assist his peers.
-            </p>
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-    <div class="row d-inline-flex">
-      <div class="col-md-6 item" data-aos="fade-right">
-        <figure>
-          <img
-            src="https://i.postimg.cc/rshkbdbJ/9-BF3-E51-D-57-C5-49-C6-BA88-AE494436-B96-B.jpg"
-            alt="Portfolio Item"
-          />
-          <figcaption>
-            <h6>Lunga</h6>
-            <p>
-              Philani is a problem solver he does that with ease and peace of
-              mind we work well together
-            </p>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="item col-md-6" data-aos="fade-right">
-        <figure>
-          <img
-            src="https://i.postimg.cc/g0pyf3Cg/Silizwe-2.jpg"
-            alt="Portfolio Item"
-          />
-          <figcaption>
-            <h6>Siliziwe</h6>
-            <p>
-              Philani is a promising and open minded person. He is a multi
-              skilled developer and I work well with him.
+              I hope that Philani can meet your expectations, he is so humble
+              and goal orientated.
             </p>
           </figcaption>
         </figure>
       </div>
     </div>
-    <div class="row row d-inline-flex flex-start">
-      <div class="col-md-6 item" data-aos="fade-right">
-        <figure>
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 item" data-aos="fade-right">
+        <figure class="my-5">
+          <img
+            src="https://i.postimg.cc/1Xqq4J2C/joel2.jpg"
+            alt="Portfolio Item"
+          />
+          <figcaption>
+            <h6>Joel</h6>
+            <p>
+              I hope that Philani can meet your expectations, he is so humble
+              and goal orientated.
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 item" data-aos="fade-right">
+        <figure class="my-5">
+          <img
+            src="https://i.postimg.cc/1Xqq4J2C/joel2.jpg"
+            alt="Portfolio Item"
+          />
+          <figcaption>
+            <h6>Joel</h6>
+            <p>
+              I hope that Philani can meet your expectations, he is so humble
+              and goal orientated.
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 item" data-aos="fade-right">
+        <figure class="my-5">
           <img
             src="https://i.postimg.cc/DZLSFN1s/Godwin22.jpg"
             alt="Portfolio Item"
@@ -84,8 +84,8 @@
           </figcaption>
         </figure>
       </div>
-      <div class="item col-md-6" data-aos="fade-right">
-        <figure>
+      <div class="col-lg-6 col-md-6 col-sm-12 item" data-aos="fade-right">
+        <figure class="my-5">
           <img
             src="https://i.postimg.cc/1Xqq4J2C/joel2.jpg"
             alt="Portfolio Item"
@@ -106,17 +106,13 @@
 <script>
 import Testimonial22Vue from "./Testimonial22.vue";
 export default {
-  name: "",
   components: {
     Testimonial22Vue,
   },
   mounted() {
-    AOS.init();
+    AOS.init({ duration: 1000 });
   },
 };
-AOS.init({
-  duration: 1000,
-});
 </script>
 
 <style scoped>
@@ -125,10 +121,6 @@ AOS.init({
 * {
   font-family: Raleway, sans-serif;
   font-weight: bold;
-}
-
-template {
-  margin: auto;
 }
 
 body {
@@ -148,17 +140,12 @@ body {
 }
 
 figure {
-  float: left;
-  height: 15em;
-  margin: au;
-  width: 18em;
+  margin: auto;
+  width: 100%;
+  height: auto;
   -webkit-transform: perspective(500);
   -webkit-transform-style: preserve-3d;
   -webkit-transition: 0.5s;
-}
-
-.figcaption {
-  height: 15em;
 }
 
 figure:hover {
@@ -170,15 +157,14 @@ img {
   background-color: #222;
   box-shadow: 0 20px 15px -10px hsla(0, 0%, 0%, 0.25);
   display: block;
-  height: 100%;
-  -webkit-transition: 0.5s;
-  width: 100%;
+  width: 80%;
+  height: auto;
+  border: #222;
+  margin: auto;
+  aspect-ratio: 0;
+  border-radius: 40%;
   object-fit: cover;
-  object-position: 0 0;
-}
-
-figure:hover img {
-  box-shadow: none;
+  -webkit-transition: 0.5s;
 }
 
 figcaption {
@@ -188,40 +174,24 @@ figcaption {
   -webkit-transform: rotateX(-90deg);
   -webkit-transform-origin: 100% 0;
   -webkit-transition: 0.5s;
+  text-align: center;
 }
 
 figure:hover figcaption {
   box-shadow: 0 20px 15px -10px hsla(0, 0%, 0%, 0.25);
 }
-/*
-.row {
-  background: #ffffff;
-  color: #898989;
-  font-family: "Poppins", helvetica;
-  font-size: 15px;
-  font-weight: 300;
-  line-height: 20px;
-  letter-spacing: 0.02em;
-  margin: 0 auto;
-  padding: 0;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}*/
-
-img {
-  border-radius: 10px;
-  box-shadow: solid grey;
-}
 
 .item {
-  width: 100%;
-  height: 345px;
   background: #e8eeef;
   text-align: center;
   color: #4e4c48;
   font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .item {
+    height: auto;
+  }
 }
 </style>
