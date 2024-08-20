@@ -14,8 +14,8 @@
             data-aos-offset="500"
             data-aos-duration="500"
           >
-            <h4 class="text-start ">Achievements</h4>
-            <ol>
+            <h4 class="text-start tit">Achievements</h4>
+            <ol class="ro">
               <li>Microsoft office 365 certificate</li>
               <li>Self-discipline certficate RDT</li>
               <li>Rotary Youth Leadership Award certificate RYLA</li>
@@ -37,8 +37,8 @@
       </div>
       <div class="col-md-3">
         <div class="text-black soft" data-aos="zoom-out-down">
-          <h4 class="text-start ">Soft Skills</h4>
-          <ul>
+          <h4 class="text-start tit">Soft Skills</h4>
+          <ul class="ro">
             <li>Communication skills</li>
             <li>Innovative and creative thinker</li>
             <li>Good visualization skills</li>
@@ -56,10 +56,10 @@
       </div>
       <div class="col-md-4" data-aos="zoom-out-down">
         <div>
-          <h4 class="text-start text-black ">Technical Skills</h4>
+          <h4 class="text-start text-black tit">Technical Skills</h4>
           <div class="row my-2 soft">
             <div class="col-md-6">
-              <ul class="list-unstyled text-black">
+              <ul class="list-unstyled text-black ro">
                 <li>
                   <p class="d-flex justify-content-between my-0">
                     HTML <span>85%</span>
@@ -135,10 +135,40 @@
                     ></div>
                   </div>
                 </li>
+                <li>
+                  <p class="d-flex justify-content-between my-0">
+                    Power Automate<span>70%</span>
+                  </p>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-black"
+                      role="progressbar"
+                      style="width: 70%"
+                      aria-valuenow="70"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </li>
+                <li>
+                  <p class="d-flex justify-content-between my-0">
+                    PowerApps<span>70%</span>
+                  </p>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-black"
+                      role="progressbar"
+                      style="width: 70%"
+                      aria-valuenow="70"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </li>
               </ul>
             </div>
             <div class="col-md-6">
-              <ul class="list-unstyled text-black">
+              <ul class="list-unstyled text-black ro">
                 <li>
                   <p class="d-flex justify-content-between my-0">
                     SQL<span>95%</span>
@@ -214,6 +244,36 @@
                     ></div>
                   </div>
                 </li>
+                <li>
+                  <p class="d-flex justify-content-between my-0">
+                    PowerBI<span>70%</span>
+                  </p>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-black"
+                      role="progressbar"
+                      style="width: 70%"
+                      aria-valuenow="70"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </li>
+                <li>
+                  <p class="d-flex justify-content-between my-0">
+                    SharePoint<span>70%</span>
+                  </p>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-black"
+                      role="progressbar"
+                      style="width: 70%"
+                      aria-valuenow="70"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
@@ -250,8 +310,13 @@ AOS.init({
 * {
   font-family: Raleway, sans-serif;
 }
-.row {
-  color: #898989;
+.ro {
+  color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.02em;
   margin: 0 auto;
   padding: 0;
   -moz-box-sizing: border-box;
@@ -262,9 +327,12 @@ AOS.init({
 }
 
 .progress {
-  height: 10px;
+  height: 7px;
 }
 
+.tit{
+  font-size: 20px;
+}
 .soft{
   padding: 5px;
   text-align: justify;
