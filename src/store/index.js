@@ -102,16 +102,16 @@ export default createStore({
     projects: [
       {
         id: "1",
-        Proimg: "https://i.postimg.cc/TwwxwVFk/Capstone-Project.png",
-        ProName: "CapStone",
+        Proimg: "https://i.postimg.cc/9MtzMXg4/EXPTAPA.png",
+        ProName: "Expense Tracker App",
         ProDescription: "Capstone project",
-        ProTechLang: "Vuex 3, Javascript and Bootstrap",
-        live: "https://prismatic-stardust-6e4c31.netlify.app",
-        github: "https://github.com/PHILANI-MXA/capstoneprojectfront-end",
+        ProTechLang: "PowerApps, Power Automate & SharePoint",
+        live: "",
+        github: "",
       },
       {
         id: "2",
-        Proimg: "https://i.postimg.cc/HxCSvd4b/JSCalculator.png",
+        Proimg: "https://i.postimg.cc/3wkwgCSH/Calculator.png",
         ProName: "Calculator",
         ProDescription:
           "Functioning Javascript calculator created after I completed Javascript module",
@@ -121,7 +121,7 @@ export default createStore({
       },
       {
         id: "3",
-        Proimg: "https://i.postimg.cc/FRLYzX2C/TodoApp.png",
+        Proimg: "https://i.postimg.cc/zD71GH7w/Todo.png",
         ProName: "Todo App",
         ProDescription: "Todo App",
         ProTechLang: "Javascript",
@@ -130,7 +130,7 @@ export default createStore({
       },
       {
         id: "4",
-        Proimg: "https://i.postimg.cc/63wk2dSs/Minutes-to-Seconds.png",
+        Proimg: "https://i.postimg.cc/gJ0Hy592/MTOSC.png",
         ProName: "Minutes to Seconds",
         ProDescription:
           "I had to figure out how convert minutes to seconds using Javascript",
@@ -140,7 +140,7 @@ export default createStore({
       },
       {
         id: "5",
-        Proimg: "https://i.postimg.cc/B6YmSHfB/BMI-calculator.png",
+        Proimg: "https://i.postimg.cc/wMv4vMxF/BMI-Cal-CO.png",
         ProName: "BMI calculator",
         ProDescription: "BMI calculator",
         ProTechLang: "JavaScript",
@@ -149,11 +149,11 @@ export default createStore({
       },
       {
         id: "6",
-        Proimg: "https://i.postimg.cc/dQS4y2kb/One-Page-port.png",
+        Proimg: "https://i.postimg.cc/VkpJZVbN/Sim-Port-Folio.png",
         ProName: "Simple Portfolio",
-        ProDescription: "This is my final project I created a library website",
+        ProDescription: "This is my simple portfolio",
         ProTechLang: "VueJS",
-        live: "https://philanimxathuleportfolio.netlify.app/",
+        live: "https://philaniscv.netlify.app/",
         github: "https://github.com/PHILANI-MXA/philanimxathulecv",
       },
     ],

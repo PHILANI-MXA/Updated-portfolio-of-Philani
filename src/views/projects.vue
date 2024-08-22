@@ -12,7 +12,7 @@
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">{{ card.ProName }}</h5>
             <h6 class="card-subtitle mb-2 text-muted">{{ card.ProTechLang }}</h6>
-            <img class="img-fluid mb-3" :src="card.Proimg" alt="Project Image" />
+            <img class="img-fluid mb-3 he" :src="card.Proimg" alt="Project Image" />
             <div class="mt-auto d-flex justify-content-between">
               <a :href="card.github" class="btn btn-success">Ghub</a>
               <a :href="card.live" class="btn btn-danger">Live</a>
@@ -52,6 +52,10 @@ export default {
   background: #e8eeef;
   text-align: center;
   color: #4e4c48;
+}
+
+.he{
+  height: 90%;
 }
 
 .backbutton h1 {
