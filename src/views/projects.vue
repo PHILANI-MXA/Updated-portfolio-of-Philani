@@ -54,6 +54,28 @@ export default {
   color: #4e4c48;
 }
 
+.btn {
+  border: 2px solid #2e6bcc;
+  width: 11em;
+  height: 2.4em;
+  font-family: Oxygen, sans-serif;
+  font-size: 16px;
+  box-shadow: 0px 0px 15px 3px rgba(15, 15, 15, 0.3);
+  color: #fff;
+  background-color: #2c3e50;
+  border-radius: 4px;
+  transition-property: border, background-color;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+  margin: auto;
+}
+
+.btn:hover {
+  border-width: 4px;
+  background-color: transparent;
+}
+
 .he{
   height: 90%;
 }
