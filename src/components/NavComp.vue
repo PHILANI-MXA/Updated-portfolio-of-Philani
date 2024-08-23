@@ -40,13 +40,13 @@
                 >Skills</router-link
               >
             </li>
-            <li class="nav-item flex-end">
+            <!-- <li class="nav-item flex-end">
               <router-link
                 class="text-decoration-none text-black"
-                to="/Maintananceroute"
+                to="/projects"
                 >Projects</router-link
               >
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>

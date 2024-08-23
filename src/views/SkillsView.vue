@@ -280,13 +280,13 @@
         </div>
       </div>
       
-      <!-- <div class="text-center">
+      <div class="text-center">
         <router-link to="/projects">
-          <div class="backbutton">
-            <button>Projects and Certificates</button>
+          <div >
+           <button class="backbutton">Projects and Certificates</button>
           </div></router-link
         >
-      </div> -->
+      </div>
     </div>
     <hr />
   </div>
@@ -342,5 +342,27 @@ AOS.init({
   font-family: 'Gill Sans', 'Gill Sans MT';
   color: #000 black;
   font-weight: 500 !important;
+}
+
+.backbutton {
+  border: 2px solid #2e6bcc;
+  width: 11em;
+  height: 3.5em;
+  font-family: Oxygen, sans-serif;
+  font-size: 16px;
+  box-shadow: 0px 0px 15px 3px rgba(15, 15, 15, 0.3);
+  color: #fff;
+  background-color: #2c3e50;
+  border-radius: 4px;
+  transition-property: border, background-color;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+  margin: auto;
+}
+
+.backbutton:hover {
+  border-width: 4px;
+  background-color: transparent;
 }
 </style>
